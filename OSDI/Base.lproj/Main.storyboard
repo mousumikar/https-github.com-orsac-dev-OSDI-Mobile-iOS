@@ -1695,13 +1695,13 @@
                         <outlet property="reportedLb" destination="Y4l-zc-KZN" id="ew8-NX-xqH"/>
                         <outlet property="totalGrievanceBtn" destination="9Qt-1p-rcr" id="poW-yW-bJJ"/>
                         <outlet property="totalGrivLb" destination="QgI-5g-gsY" id="VaK-Od-F42"/>
-                        <segue destination="SnP-mV-eak" kind="show" identifier="backToDashboardGrievanceSegue" id="HZc-X3-6tW"/>
+                        <segue destination="SnP-mV-eak" kind="show" identifier="backDashboardGrievanceSegue" id="HZc-X3-6tW"/>
                         <segue destination="G7Q-mk-ZfE" kind="show" identifier="grievanceSegue" id="XzT-Nv-RJ3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5nk-tV-ebU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2605.7971014492755" y="841.74107142857144"/>
+            <point key="canvasLocation" x="2714" y="852"/>
         </scene>
         <!--Total GrievanceVC-->
         <scene sceneID="jkf-gT-noz">
@@ -1721,6 +1721,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="68.666666666666671" height="54"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="icons8-back-arrow-40"/>
+                                                <connections>
+                                                    <action selector="backButton4:" destination="G7Q-mk-ZfE" eventType="touchUpInside" id="5X9-2m-ax2"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grievance Management List" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlZ-G5-6ha">
                                                 <rect key="frame" x="68.666666666666671" y="0.0" width="215.33333333333331" height="54"/>
@@ -2099,7 +2102,7 @@
                     <navigationItem key="navigationItem" id="ccs-TY-LGB"/>
                     <connections>
                         <outlet property="grievanceCollectionView" destination="FZi-pq-hGz" id="1tW-Xf-r2v"/>
-                        <segue destination="A9T-OL-6SK" kind="show" identifier="backToToralGrievanceSegue" id="yx8-ma-jgt"/>
+                        <segue destination="A9T-OL-6SK" kind="show" identifier="backToGrievanceSegue" id="KJQ-sM-KtL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yzt-46-Oa4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2250,7 +2253,8 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="yx8-ma-jgt"/>
+        <segue reference="XzT-Nv-RJ3"/>
+        <segue reference="KJQ-sM-KtL"/>
         <segue reference="F8W-Ri-Y9s"/>
         <segue reference="HZc-X3-6tW"/>
         <segue reference="eaY-j1-WVO"/>

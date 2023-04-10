@@ -20,6 +20,9 @@ class TotalGrievanceVC: UIViewController,UICollectionViewDelegate,UICollectionVi
         return cell
     }
     
+    @IBAction func backButton4(_ sender: Any) {
+        performSegue(withIdentifier: "backToGrievanceSegue", sender: self)
+    }
     
 
     @IBOutlet weak var grievanceCollectionView: UICollectionView!
