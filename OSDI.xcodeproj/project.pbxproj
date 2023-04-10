@@ -26,6 +26,7 @@
 		446E98AF29E3EABE00B29B47 /* GrievanceManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */; };
 		446E98B529E4111A00B29B47 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98B429E4111A00B29B47 /* CustomButton.swift */; };
 		446E98B729E4165300B29B47 /* TotalGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */; };
+		447846C629E440B000C9B3E7 /* TotalGrievanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447846C529E440B000C9B3E7 /* TotalGrievanceCell.swift */; };
 		44A1075029E28D6A0017084C /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1074F29E28D6A0017084C /* MyProfileVC.swift */; };
 		44A1075229E3181C0017084C /* FilterLandInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1075129E3181C0017084C /* FilterLandInfoVC.swift */; };
 		44A1075629E332D40017084C /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1075529E332D40017084C /* ChangePasswordVC.swift */; };
@@ -73,6 +74,7 @@
 		446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GrievanceManagementVC.swift; path = OSDI/GrievanceManagementVC.swift; sourceTree = SOURCE_ROOT; };
 		446E98B429E4111A00B29B47 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalGrievanceVC.swift; path = OSDI/TotalGrievanceVC.swift; sourceTree = SOURCE_ROOT; };
+		447846C529E440B000C9B3E7 /* TotalGrievanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalGrievanceCell.swift; sourceTree = "<group>"; };
 		44A1074F29E28D6A0017084C /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 		44A1075129E3181C0017084C /* FilterLandInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterLandInfoVC.swift; sourceTree = "<group>"; };
 		44A1075529E332D40017084C /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		4460692A29E012DB002F748B /* OSDI */ = {
 			isa = PBXGroup;
 			children = (
+				447846C429E43FCE00C9B3E7 /* CollectionView */,
 				4460696029E09CDC002F748B /* Utili */,
 				4460695D29E015B0002F748B /* VC */,
 				4460692B29E012DB002F748B /* AppDelegate.swift */,
@@ -201,6 +204,14 @@
 				446E98B429E4111A00B29B47 /* CustomButton.swift */,
 			);
 			path = Utili;
+			sourceTree = "<group>";
+		};
+		447846C429E43FCE00C9B3E7 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				447846C529E440B000C9B3E7 /* TotalGrievanceCell.swift */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		D225BE891D14D967FC5C274B /* Pods */ = {
@@ -505,6 +516,7 @@
 				4460692E29E012DB002F748B /* SceneDelegate.swift in Sources */,
 				4460696229E09D3F002F748B /* CustomTextField.swift in Sources */,
 				44343AE429E1EA60009D6A80 /* Constants.swift in Sources */,
+				447846C629E440B000C9B3E7 /* TotalGrievanceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
