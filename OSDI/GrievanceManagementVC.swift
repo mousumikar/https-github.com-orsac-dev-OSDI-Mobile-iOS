@@ -31,6 +31,7 @@ class GrievanceManagementVC: UIViewController {
     }
     
     @IBAction func totalGrievanceButton(_ sender: Any) {
+        performSegue(withIdentifier: "grievanceSegue", sender: self)
     }
     
     @IBAction func pendingButton(_ sender: Any) {

@@ -32,13 +32,6 @@ class RuralUrbanVC: UIViewController {
         chooseAreaView.layer.shadowColor = UIColor.lightGray.cgColor
         chooseAreaView.layer.shadowOpacity = 0.5
         chooseAreaView.layer.shadowOffset = CGSize(width: 3, height: 3)
-//
-//        urbanBtn.layer.cornerRadius =  urbanBtn.frame.size.height/2
-//        urbanBtn.layer.borderColor = UIColor.black.cgColor
-//        urbanBtn.layer.borderWidth = 1.0
-//        ruralBtn.layer.cornerRadius =  urbanBtn.frame.size.height/2
-//        ruralBtn.layer.borderColor = UIColor.black.cgColor
-//        ruralBtn.layer.borderWidth = 1.0
        
        
 
