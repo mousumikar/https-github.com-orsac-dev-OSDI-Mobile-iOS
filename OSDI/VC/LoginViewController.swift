@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class LoginViewController: UIViewController {
     
@@ -25,22 +27,129 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var hidePasswordBtn: UIButton!
     
+    var responseJsonData:JSON = JSON()
+    
     
      let yourAttributes: [NSAttributedString.Key: Any] = [
         .font: UIFont.boldSystemFont(ofSize: 12.0),
          .foregroundColor: UIColor.lightGray,
          .underlineStyle: NSUnderlineStyle.single.rawValue
      ] // .double.rawValue, .thick.rawValue
+    
     @IBAction func forgotPasswordButton(_ sender: Any) {
     }
     
     @IBAction func loginButton(_ sender: Any) {
         performSegue(withIdentifier: "mainSegue", sender: self)
         loginView.isHidden = true
-        
+        login()
         
     }
     
+    public func login(){
+        let urlString = BASE_URL + LOGIN
+        sendLogin(username: "Admin01" ,password: "Admin01", url: urlString){ (response, error) in
+            if(error != nil){
+                //Error Here
+              //  LoadingIndicatorView.hide()
+                let alert = UIAlertController(title: "Message!", message: "Something went wrong!! Please check your internet connection and try again!!", preferredStyle: .alert)
+                
+                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                self.present(alert, animated: true)
+            }else{
+                //No Error
+                let swiftyJsonVar = JSON(response)
+                let json = JSON.init(parseJSON : swiftyJsonVar.rawString() ?? "")
+                print(json)
+                
+               // self.saveData(responseData: json)
+            
+              //      LoadingIndicatorView.hide()
+                    let alert = UIAlertController(title: "Message!", message: "OOPS!! You are not registered!! Please contact OFMS Admin to register in OFMS Mobile!!", preferredStyle: .alert)
+                    
+                    alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                    self.present(alert, animated: true)
+                
+            }
+        }
+    }
+    
+    
+    func sendLogin(username: String,password: String, url:String, completion: @escaping (Any?, Error?) -> ()){
+    
+            AF.upload(multipartFormData: { multipartFormData in
+                var params = [String:AnyObject]()
+                params["username"] = String(username) as AnyObject
+                params["password"] = String(password) as AnyObject
+                for (key, value) in params {
+                    if let data = value.data(using: String.Encoding.utf8.rawValue) {
+                        multipartFormData.append(data, withName: key)
+                    }
+                }
+
+                },to: url,method:HTTPMethod.post,
+            headers:nil).responseString { response in
+                switch response.result {
+                            case .success(let result):
+                                completion(result, nil)
+                            case .failure(let error):
+                                completion(nil, error)
+                            }
+            }
+        
+        }
+    
+//    private func saveData(responseData: JSON){
+//
+//        if(responseData["device_availability"].string == "1"){
+//
+//            do {
+//
+//                let mobileNoVal = responseData["mobile_no"].string ?? ""
+//
+//                let deviceAvailabilityVal = responseData["device_availability"].string ?? ""
+//
+//                let activeVal = responseData["active"].string ?? ""
+//
+//                let nameVal = responseData["name"].string ?? ""
+//
+//                var designationVal = responseData["designation"].string ?? ""
+//
+//                let device_registerVal = responseData["device_availability"].string ?? ""
+//
+//                let max_jurisdictionVal = responseData["max_jurisdiction"].string ?? ""
+//
+//                let state_nameVal = responseData["jurisdiction_details"]["state"].string ?? ""
+//
+//                var circle_nameVal = responseData["jurisdiction_details"]["circle"].string ?? ""
+//
+//                let division_nameVal = responseData["jurisdiction_details"]["division"].string ?? ""
+//
+//                var range_nameVal = responseData["jurisdiction_details"]["range"].string ?? ""
+//
+//                let section_nameVal = responseData["jurisdiction_details"]["section"].string ?? ""
+//
+//                var beat_nameVal = responseData["jurisdiction_details"]["beat"].string ?? ""
+//
+//                try? db?.run(deviceDetails.delete())
+//
+//                let rowid = try? db?.run(deviceDetails.insert(id <- 0,mobileNo <- mobileNoVal,deviceAvailability <- deviceAvailabilityVal,active <- activeVal, designation <- designationVal, device_register <- device_registerVal, max_jurisdiction <- max_jurisdictionVal, state_name <- state_nameVal, circle_name <- circle_nameVal,
+//                                                              division_name <- division_nameVal,
+//                                                              range_name <- range_nameVal, section_name <- section_nameVal,
+//                                                              beat_name <- beat_nameVal,
+//                                                              name <- nameVal))
+////                print("inserted id: \(rowid)")
+//
+//
+//            } catch {
+////                print("insertion failed: \(error)")
+//                isActive=false
+//            }
+//        }else{
+//            isActive=false
+//        }
+//    }
+//
    
     @IBAction func signUpButton(_ sender: Any) {
     }
