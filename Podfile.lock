@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (5.6.4)
+  - CustomToastView-swift (0.1.5)
+  - GoogleMaps (7.4.0):
+    - GoogleMaps/Maps (= 7.4.0)
+  - GoogleMaps/Base (7.4.0)
+  - GoogleMaps/Maps (7.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (7.4.0)
+  - iOSDropDown (0.4.0)
+  - RSSelectionMenu (7.1.3)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CustomToastView-swift
+  - GoogleMaps
+  - GooglePlaces
+  - iOSDropDown
+  - RSSelectionMenu
+  - SQLite.swift (~> 0.12.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CustomToastView-swift
+    - GoogleMaps
+    - GooglePlaces
+    - iOSDropDown
+    - RSSelectionMenu
+    - SQLite.swift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  CustomToastView-swift: 3c2a6fe966245e2af3cb8a9d9466d1e0f54a398f
+  GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
+  GooglePlaces: 544e908d94860bf6f8fc1865b80d2c7eb6b5f937
+  iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
+  RSSelectionMenu: 873d62ebbaef138519f6cf3f073412c2b5d94c2c
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 68e39a0499d8a0a6348a18ff3b77537f7ab2479e
+
+COCOAPODS: 1.11.3

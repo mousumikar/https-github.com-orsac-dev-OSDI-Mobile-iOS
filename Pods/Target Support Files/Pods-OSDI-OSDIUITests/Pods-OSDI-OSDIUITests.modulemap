@@ -1,0 +1,6 @@
+framework module Pods_OSDI_OSDIUITests {
+  umbrella header "Pods-OSDI-OSDIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

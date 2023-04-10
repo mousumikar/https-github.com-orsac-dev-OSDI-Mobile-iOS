@@ -1,0 +1,6 @@
+framework module Pods_OSDI {
+  umbrella header "Pods-OSDI-umbrella.h"
+
+  export *
+  module * { export * }
+}
