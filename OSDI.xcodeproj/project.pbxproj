@@ -23,9 +23,11 @@
 		4460694F29E012DD002F748B /* OSDIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460694E29E012DD002F748B /* OSDIUITestsLaunchTests.swift */; };
 		4460695F29E015E2002F748B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460695E29E015E2002F748B /* LoginViewController.swift */; };
 		4460696229E09D3F002F748B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460696129E09D3F002F748B /* CustomTextField.swift */; };
+		446E98AF29E3EABE00B29B47 /* GrievanceManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */; };
+		446E98B529E4111A00B29B47 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98B429E4111A00B29B47 /* CustomButton.swift */; };
+		446E98B729E4165300B29B47 /* TotalGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */; };
 		44A1075029E28D6A0017084C /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1074F29E28D6A0017084C /* MyProfileVC.swift */; };
 		44A1075229E3181C0017084C /* FilterLandInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1075129E3181C0017084C /* FilterLandInfoVC.swift */; };
-		44A1075429E320BD0017084C /* MDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1075329E320BD0017084C /* MDButton.swift */; };
 		44A1075629E332D40017084C /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1075529E332D40017084C /* ChangePasswordVC.swift */; };
 		DB23B2626D8C2DAAF57F39CB /* Pods_OSDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BA8CAE25E60D59E31EAD1D /* Pods_OSDI.framework */; };
 /* End PBXBuildFile section */
@@ -68,9 +70,11 @@
 		4460694E29E012DD002F748B /* OSDIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSDIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4460695E29E015E2002F748B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4460696129E09D3F002F748B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GrievanceManagementVC.swift; path = OSDI/GrievanceManagementVC.swift; sourceTree = SOURCE_ROOT; };
+		446E98B429E4111A00B29B47 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalGrievanceVC.swift; path = OSDI/TotalGrievanceVC.swift; sourceTree = SOURCE_ROOT; };
 		44A1074F29E28D6A0017084C /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 		44A1075129E3181C0017084C /* FilterLandInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterLandInfoVC.swift; sourceTree = "<group>"; };
-		44A1075329E320BD0017084C /* MDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDButton.swift; sourceTree = "<group>"; };
 		44A1075529E332D40017084C /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
 		65BA8CAE25E60D59E31EAD1D /* Pods_OSDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE53DC3C9FCCD081042C0B1 /* Pods_OSDITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSDITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +180,8 @@
 		4460695D29E015B0002F748B /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */,
+				446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */,
 				44343AE129E1EA14009D6A80 /* LandInfoSystemVC.swift */,
 				4460695E29E015E2002F748B /* LoginViewController.swift */,
 				44343ADB29E1488A009D6A80 /* RuralUrbanVC.swift */,
@@ -192,7 +198,7 @@
 			children = (
 				4460696129E09D3F002F748B /* CustomTextField.swift */,
 				44343AE329E1EA60009D6A80 /* Constants.swift */,
-				44A1075329E320BD0017084C /* MDButton.swift */,
+				446E98B429E4111A00B29B47 /* CustomButton.swift */,
 			);
 			path = Utili;
 			sourceTree = "<group>";
@@ -487,8 +493,10 @@
 			files = (
 				44343ADC29E1488A009D6A80 /* RuralUrbanVC.swift in Sources */,
 				4460695F29E015E2002F748B /* LoginViewController.swift in Sources */,
-				44A1075429E320BD0017084C /* MDButton.swift in Sources */,
+				446E98B729E4165300B29B47 /* TotalGrievanceVC.swift in Sources */,
 				44A1075029E28D6A0017084C /* MyProfileVC.swift in Sources */,
+				446E98B529E4111A00B29B47 /* CustomButton.swift in Sources */,
+				446E98AF29E3EABE00B29B47 /* GrievanceManagementVC.swift in Sources */,
 				44343AE229E1EA14009D6A80 /* LandInfoSystemVC.swift in Sources */,
 				44A1075629E332D40017084C /* ChangePasswordVC.swift in Sources */,
 				44343AE029E1E2EC009D6A80 /* DashboardVC.swift in Sources */,

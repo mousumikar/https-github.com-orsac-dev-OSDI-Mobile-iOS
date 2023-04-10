@@ -25,13 +25,7 @@ class MyProfileVC: UIViewController {
     @IBAction func backBtnToDashboard(_ sender: Any) {
         performSegue(withIdentifier: "BackToDashSegue", sender: self)
     }
-    
-    
-    
-    
-    
-    
-    
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         departmentTxtView.layer.cornerRadius = 5.0

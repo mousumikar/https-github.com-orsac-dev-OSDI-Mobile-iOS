@@ -10,7 +10,7 @@ import UIKit
 class DashboardVC: UIViewController {
     
     
-    @IBOutlet weak var landInfoBtn: MDButton!
+    @IBOutlet weak var landInfoBtn: CustomButton!
     @IBOutlet weak var profileBtn: UIButton!
     
     
@@ -45,6 +45,11 @@ class DashboardVC: UIViewController {
     @IBAction func landInfoButton(_ sender: Any) {
         performSegue(withIdentifier: "LandInfoSystemSegue", sender: self)
     }
+    
+    @IBAction func decisionGrievanceButton(_ sender: Any) {
+        performSegue(withIdentifier: "grievanceSegue", sender: self)
+    }
+    
     
     
     @IBAction func backBtn(_ sender: Any) {

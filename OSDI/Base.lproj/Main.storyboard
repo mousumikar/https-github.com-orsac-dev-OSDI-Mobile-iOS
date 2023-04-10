@@ -207,7 +207,7 @@
             <objects>
                 <viewController id="h6r-gk-AZg" customClass="RuralUrbanVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2YG-j1-N7T">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_wave_effect" translatesAutoresizingMaskIntoConstraints="NO" id="Udk-Fl-4pm">
@@ -225,7 +225,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@ 2022 Odisha Spatial Data Infrastructure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iat-mf-hcb">
-                                <rect key="frame" x="20" y="765" width="374" height="30"/>
+                                <rect key="frame" x="20" y="785" width="374" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ZD0-So-MFp"/>
                                 </constraints>
@@ -248,7 +248,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="vfT-GK-kby">
                                         <rect key="frame" x="27" y="65" width="330" height="150"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkf-Dk-6Zl" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkf-Dk-6Zl" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
                                                 <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -271,7 +271,7 @@
                                                     <action selector="urbanButton:" destination="h6r-gk-AZg" eventType="touchUpInside" id="SID-ff-wk5"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABT-ad-Cal" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABT-ad-Cal" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                 <rect key="frame" x="180" y="0.0" width="150" height="150"/>
                                                 <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -429,7 +429,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="txc-H8-Odc">
                                                 <rect key="frame" x="20" y="24" width="374" height="130"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku4-Za-osI" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku4-Za-osI" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
                                                         <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
@@ -449,11 +449,11 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cE3-fp-ARs" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cE3-fp-ARs" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                         <rect key="frame" x="202" y="0.0" width="172" height="130"/>
                                                         <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Section Profile (LS / CS)">
+                                                        <buttonConfiguration key="configuration" style="plain" title="Heritage Structure Information &amp; Regulation">
                                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
@@ -477,7 +477,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jas-Yh-TD3">
                                                 <rect key="frame" x="20" y="180" width="374" height="130"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rao-eK-HdU" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rao-eK-HdU" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
                                                         <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
@@ -500,11 +500,11 @@
                                                             <action selector="landInfoButton:" destination="SnP-mV-eak" eventType="touchUpInside" id="QUD-4F-nVK"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3o-vV-NZ0" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3o-vV-NZ0" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                         <rect key="frame" x="202" y="0.0" width="172" height="130"/>
                                                         <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Section Profile (LS / CS)">
+                                                        <buttonConfiguration key="configuration" style="plain" title="Decision Support for Grievance Management">
                                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
@@ -519,6 +519,9 @@
                                                                 <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="decisionGrievanceButton:" destination="SnP-mV-eak" eventType="touchUpInside" id="yAW-O3-y7m"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <viewLayoutGuide key="safeArea" id="GfH-R3-eTM"/>
@@ -529,7 +532,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Hd6-WF-D5s">
                                                 <rect key="frame" x="20" y="336" width="374" height="130"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKE-EZ-ElG" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKE-EZ-ElG" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
                                                         <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
@@ -549,7 +552,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugs-G7-dCV" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugs-G7-dCV" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                         <rect key="frame" x="202" y="0.0" width="172" height="130"/>
                                                         <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
@@ -578,7 +581,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="qFr-xr-H20">
                                                 <rect key="frame" x="20" y="492" width="374" height="130"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKk-QY-Gq1" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKk-QY-Gq1" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
                                                         <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
@@ -598,7 +601,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Mx-f1-Koa" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Mx-f1-Koa" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                         <rect key="frame" x="202" y="0.0" width="172" height="130"/>
                                                         <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
@@ -625,7 +628,7 @@
                                                     <constraint firstAttribute="height" constant="130" id="S2G-4F-Aqd"/>
                                                 </constraints>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcl-XL-BR9" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcl-XL-BR9" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                                 <rect key="frame" x="20" y="648" width="172" height="130"/>
                                                 <color key="backgroundColor" red="0.1192680581" green="0.28088684670000003" blue="0.58083807880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -704,6 +707,7 @@
                         <segue destination="UFA-yj-OTp" kind="show" identifier="MyProfileSegue" id="X4R-x9-1Bb"/>
                         <segue destination="glo-QL-Mh4" kind="show" identifier="LandInfoSystemSegue" id="F8W-Ri-Y9s"/>
                         <segue destination="AGJ-gK-2FN" kind="show" identifier="changePasswordSegue" id="Xpw-iR-JWE"/>
+                        <segue destination="A9T-OL-6SK" kind="show" identifier="grievanceSegue" id="RBD-cy-eaE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bee-zv-cqg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1023,7 +1027,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="password"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZt-9n-QWH" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZt-9n-QWH" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                         <rect key="frame" x="116" y="334" width="153" height="40"/>
                                         <color key="backgroundColor" red="0.1762781585" green="0.41515068550000001" blue="0.85847852749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -1144,7 +1148,7 @@
                                     <constraint firstAttribute="height" constant="771" id="AZY-hK-9qn"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVM-TU-kGJ" customClass="MDButton" customModule="OSDI" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVM-TU-kGJ" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                 <rect key="frame" x="338" y="764" width="60" height="60"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
@@ -1196,7 +1200,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="69Z-hs-L96" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2457.971014492754" y="897.99107142857133"/>
+            <point key="canvasLocation" x="929" y="852"/>
         </scene>
         <!--Filter Land InfoVC-->
         <scene sceneID="vcN-Uu-BVq">
@@ -1322,7 +1326,395 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ygJ-S3-ZHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3179.7101449275365" y="897.99107142857133"/>
+            <point key="canvasLocation" x="1726" y="842"/>
+        </scene>
+        <!--Grievance ManagementVC-->
+        <scene sceneID="Kqo-TB-xP3">
+            <objects>
+                <viewController id="A9T-OL-6SK" customClass="GrievanceManagementVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="80Q-fy-WDX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6F-IH-1yc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="115"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BBH-qK-yyZ">
+                                        <rect key="frame" x="0.0" y="54" width="410.33333333333331" height="54"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ac-iI-Tzt">
+                                                <rect key="frame" x="0.0" y="0.0" width="64" height="54"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="icons8-back-arrow-40"/>
+                                                <connections>
+                                                    <action selector="backBtn3:" destination="A9T-OL-6SK" eventType="touchUpInside" id="x4Y-DN-DYh"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decision Support for Grievance Management" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r66-JN-g4Y">
+                                                <rect key="frame" x="64" y="0.0" width="346.33333333333331" height="54"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="8yE-hK-Wm0"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1762781585" green="0.41515068550000001" blue="0.85847852749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="BBH-qK-yyZ" firstAttribute="top" secondItem="d6F-IH-1yc" secondAttribute="top" constant="54" id="Bxo-YC-OgN"/>
+                                    <constraint firstItem="BBH-qK-yyZ" firstAttribute="leading" secondItem="d6F-IH-1yc" secondAttribute="leading" id="MjJ-Nh-ZBb"/>
+                                    <constraint firstAttribute="height" constant="115" id="zPG-Qe-eWt"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qt-1p-rcr" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
+                                <rect key="frame" x="39" y="147" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="3iP-gA-EIb"/>
+                                    <constraint firstAttribute="width" constant="150" id="xfS-n7-2ED"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topGradientColor">
+                                        <color key="value" red="0.33586119390000002" green="0.90603604910000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomGradientColor">
+                                        <color key="value" red="0.22938550730000001" green="0.56071669970000004" blue="0.81674936139999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="totalGrievanceButton:" destination="A9T-OL-6SK" eventType="touchUpInside" id="ljv-cg-CTU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCB-Zs-e1a" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
+                                <rect key="frame" x="39" y="320" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Is3-eu-ZIM"/>
+                                    <constraint firstAttribute="width" constant="150" id="eQ0-hm-Glc"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topGradientColor">
+                                        <color key="value" red="0.40949177661444691" green="0.93331206206119421" blue="0.35561736766025959" alpha="0.84516846107331334" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomGradientColor">
+                                        <color key="value" red="0.14680411809161759" green="0.5" blue="0.13589322877949866" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="completedButton:" destination="A9T-OL-6SK" eventType="touchUpInside" id="Tn9-cU-pK5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxS-84-n1g" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
+                                <rect key="frame" x="39" y="493" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="QL2-Ys-CAH"/>
+                                    <constraint firstAttribute="height" constant="150" id="iTH-iv-8cO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topGradientColor">
+                                        <color key="value" red="0.82044142572985468" green="0.9723526233374471" blue="0.32490629987227104" alpha="0.82269085006208609" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomGradientColor">
+                                        <color key="value" red="0.63847429986557291" green="0.71968279763905696" blue="0.19349821970852718" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="recheckButton:" destination="A9T-OL-6SK" eventType="touchUpInside" id="i08-J8-5Kf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyJ-yh-xzj" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
+                                <rect key="frame" x="225" y="493" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="XcV-kt-cI5"/>
+                                    <constraint firstAttribute="height" constant="150" id="hhe-MC-m7A"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topGradientColor">
+                                        <color key="value" red="0.64878441460428626" green="0.57576574328080432" blue="0.91253726831590287" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomGradientColor">
+                                        <color key="value" red="0.57673405833202196" green="0.41129173422561494" blue="0.79274629523055729" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="assignedBtn:" destination="A9T-OL-6SK" eventType="touchUpInside" id="PqQ-FG-LW3"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total_grievance_count" translatesAutoresizingMaskIntoConstraints="NO" id="Kc8-Dr-PWu">
+                                <rect key="frame" x="89" y="171" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Grievance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLH-F4-WJX">
+                                <rect key="frame" x="63" y="229" width="103" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QgI-5g-gsY">
+                                <rect key="frame" x="76" y="272" width="76" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total_completed_grievance_count" translatesAutoresizingMaskIntoConstraints="NO" id="4Kl-uY-4Ha">
+                                <rect key="frame" x="89" y="334" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total_completed_grievance_count" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-td-KBL">
+                                <rect key="frame" x="89" y="504" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total_assigned_grievance_count" translatesAutoresizingMaskIntoConstraints="NO" id="FCQ-kU-xEO">
+                                <rect key="frame" x="290" y="504" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Completed Grievance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNF-yI-cZx">
+                                <rect key="frame" x="63" y="392" width="103" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Completed Grievance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLh-1u-6w2">
+                                <rect key="frame" x="63" y="562" width="103" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Completed Grievance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Yd-D1-1pD">
+                                <rect key="frame" x="269" y="562" width="103" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Plf-2E-O3P">
+                                <rect key="frame" x="76" y="439" width="76" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6I-1t-8w3">
+                                <rect key="frame" x="76" y="604" width="76" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOK-l4-gcN">
+                                <rect key="frame" x="277" y="604" width="76" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVH-2x-nrG" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
+                                <rect key="frame" x="225" y="147" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="8Bb-wX-Waz"/>
+                                    <constraint firstAttribute="height" constant="150" id="94G-mx-OPc"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topGradientColor">
+                                        <color key="value" red="0.79921025150565428" green="0.83227789939999997" blue="0.18204595870153298" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomGradientColor">
+                                        <color key="value" red="0.91145324699999997" green="0.64712276310000005" blue="0.13960443510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pendingButton:" destination="A9T-OL-6SK" eventType="touchUpInside" id="m8z-ee-nl4"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total_pending_grievance_count" translatesAutoresizingMaskIntoConstraints="NO" id="TVr-Zl-QYc">
+                                <rect key="frame" x="290" y="171" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pending Grievance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZm-fh-hrP">
+                                <rect key="frame" x="269" y="229" width="103" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mzt-IM-cOY" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
+                                <rect key="frame" x="225" y="320" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Hq6-89-6h1"/>
+                                    <constraint firstAttribute="height" constant="150" id="qyA-Cd-fZA"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topGradientColor">
+                                        <color key="value" red="0.37250569010000001" green="0.87045064599999999" blue="0.82697457789999995" alpha="0.60787640503688944" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomGradientColor">
+                                        <color key="value" systemColor="systemMintColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="reportedButton:" destination="A9T-OL-6SK" eventType="touchUpInside" id="bzb-hl-OWS"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="total_reported_grievance_count" translatesAutoresizingMaskIntoConstraints="NO" id="40K-fG-n5d">
+                                <rect key="frame" x="290" y="334" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4l-zc-KZN">
+                                <rect key="frame" x="277" y="439" width="76" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reported Grievance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5n-9P-4fQ">
+                                <rect key="frame" x="269" y="392" width="103" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eMI-xO-WMu">
+                                <rect key="frame" x="277" y="274" width="76" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aXr-He-stB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mzt-IM-cOY" firstAttribute="leading" secondItem="lCB-Zs-e1a" secondAttribute="trailing" constant="36" id="2kY-Cd-XcJ"/>
+                            <constraint firstItem="bxS-84-n1g" firstAttribute="top" secondItem="lCB-Zs-e1a" secondAttribute="bottom" constant="23" id="63B-9J-BeW"/>
+                            <constraint firstItem="aXr-He-stB" firstAttribute="trailing" secondItem="oyJ-yh-xzj" secondAttribute="trailing" constant="39" id="GDm-NP-xqH"/>
+                            <constraint firstItem="9Qt-1p-rcr" firstAttribute="top" secondItem="d6F-IH-1yc" secondAttribute="bottom" constant="32" id="OBi-7o-BXo"/>
+                            <constraint firstItem="oyJ-yh-xzj" firstAttribute="top" secondItem="Mzt-IM-cOY" secondAttribute="bottom" constant="23" id="Vbs-oj-SGO"/>
+                            <constraint firstItem="aXr-He-stB" firstAttribute="trailing" secondItem="Mzt-IM-cOY" secondAttribute="trailing" constant="39" id="Xez-Dm-6yQ"/>
+                            <constraint firstItem="d6F-IH-1yc" firstAttribute="trailing" secondItem="aXr-He-stB" secondAttribute="trailing" id="aEt-55-iit"/>
+                            <constraint firstItem="lCB-Zs-e1a" firstAttribute="top" secondItem="9Qt-1p-rcr" secondAttribute="bottom" constant="23" id="b4p-ZY-1QQ"/>
+                            <constraint firstItem="lCB-Zs-e1a" firstAttribute="leading" secondItem="aXr-He-stB" secondAttribute="leading" constant="39" id="bZ4-go-MNx"/>
+                            <constraint firstItem="mVH-2x-nrG" firstAttribute="top" secondItem="d6F-IH-1yc" secondAttribute="bottom" constant="32" id="cC0-Ye-mnn"/>
+                            <constraint firstItem="bxS-84-n1g" firstAttribute="leading" secondItem="aXr-He-stB" secondAttribute="leading" constant="39" id="cie-7l-RTw"/>
+                            <constraint firstItem="aXr-He-stB" firstAttribute="trailing" secondItem="mVH-2x-nrG" secondAttribute="trailing" constant="39" id="gCi-3P-TlE"/>
+                            <constraint firstItem="Mzt-IM-cOY" firstAttribute="top" secondItem="mVH-2x-nrG" secondAttribute="bottom" constant="23" id="lew-4F-DYG"/>
+                            <constraint firstItem="d6F-IH-1yc" firstAttribute="top" secondItem="80Q-fy-WDX" secondAttribute="top" id="oqa-vv-okO"/>
+                            <constraint firstItem="d6F-IH-1yc" firstAttribute="leading" secondItem="aXr-He-stB" secondAttribute="leading" id="rFa-xH-Vnp"/>
+                            <constraint firstItem="9Qt-1p-rcr" firstAttribute="leading" secondItem="aXr-He-stB" secondAttribute="leading" constant="39" id="uiz-x1-Kgq"/>
+                            <constraint firstItem="mVH-2x-nrG" firstAttribute="leading" secondItem="9Qt-1p-rcr" secondAttribute="trailing" constant="36" id="wSX-hB-Jdc"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="wSX-hB-Jdc"/>
+                                <exclude reference="2kY-Cd-XcJ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="wcc-Ho-9ov"/>
+                    <connections>
+                        <outlet property="assignedBtn" destination="oyJ-yh-xzj" id="iQT-sW-iBL"/>
+                        <outlet property="assignedLb" destination="NOK-l4-gcN" id="xgr-f6-oU3"/>
+                        <outlet property="completedBtn" destination="lCB-Zs-e1a" id="yxe-T5-ovX"/>
+                        <outlet property="completedLb" destination="Plf-2E-O3P" id="q3K-Ua-hF6"/>
+                        <outlet property="pendingBtn" destination="mVH-2x-nrG" id="KWV-qw-8NV"/>
+                        <outlet property="pendingLb" destination="eMI-xO-WMu" id="Acy-2H-vbg"/>
+                        <outlet property="recheckBtn" destination="bxS-84-n1g" id="edm-gQ-LWJ"/>
+                        <outlet property="recheckLb" destination="c6I-1t-8w3" id="flg-7s-Nkm"/>
+                        <outlet property="reportedBtn" destination="Mzt-IM-cOY" id="Qn2-lb-yAF"/>
+                        <outlet property="reportedLb" destination="Y4l-zc-KZN" id="ew8-NX-xqH"/>
+                        <outlet property="totalGrievanceBtn" destination="9Qt-1p-rcr" id="poW-yW-bJJ"/>
+                        <outlet property="totalGrivLb" destination="QgI-5g-gsY" id="VaK-Od-F42"/>
+                        <segue destination="SnP-mV-eak" kind="show" identifier="backToDashboardGrievanceSegue" id="HZc-X3-6tW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5nk-tV-ebU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2605.7971014492755" y="841.74107142857144"/>
+        </scene>
+        <!--Total GrievanceVC-->
+        <scene sceneID="jkf-gT-noz">
+            <objects>
+                <viewController id="G7Q-mk-ZfE" customClass="TotalGrievanceVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dnE-ih-w9g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ME5-bh-BY0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yzt-46-Oa4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3600" y="856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VB3-Jd-7dC">
@@ -1346,11 +1738,17 @@
         <designable name="6Mx-f1-Koa">
             <size key="intrinsicContentSize" width="198.66666666666666" height="32"/>
         </designable>
+        <designable name="9Qt-1p-rcr">
+            <size key="intrinsicContentSize" width="24" height="14"/>
+        </designable>
         <designable name="ABT-ad-Cal">
             <size key="intrinsicContentSize" width="498" height="314"/>
         </designable>
         <designable name="Ku4-Za-osI">
             <size key="intrinsicContentSize" width="208.66666666666666" height="31"/>
+        </designable>
+        <designable name="Mzt-IM-cOY">
+            <size key="intrinsicContentSize" width="24" height="14"/>
         </designable>
         <designable name="TKk-QY-Gq1">
             <size key="intrinsicContentSize" width="208.66666666666666" height="31"/>
@@ -1358,8 +1756,11 @@
         <designable name="Ugs-G7-dCV">
             <size key="intrinsicContentSize" width="198.66666666666666" height="32"/>
         </designable>
+        <designable name="bxS-84-n1g">
+            <size key="intrinsicContentSize" width="24" height="14"/>
+        </designable>
         <designable name="cE3-fp-ARs">
-            <size key="intrinsicContentSize" width="198.66666666666666" height="32"/>
+            <size key="intrinsicContentSize" width="346.66666666666669" height="32"/>
         </designable>
         <designable name="iZt-9n-QWH">
             <size key="intrinsicContentSize" width="86.666666666666671" height="33.333333333333336"/>
@@ -1367,8 +1768,17 @@
         <designable name="jcl-XL-BR9">
             <size key="intrinsicContentSize" width="67" height="31"/>
         </designable>
+        <designable name="lCB-Zs-e1a">
+            <size key="intrinsicContentSize" width="24" height="14"/>
+        </designable>
         <designable name="mKE-EZ-ElG">
             <size key="intrinsicContentSize" width="208.66666666666666" height="31"/>
+        </designable>
+        <designable name="mVH-2x-nrG">
+            <size key="intrinsicContentSize" width="24" height="14"/>
+        </designable>
+        <designable name="oyJ-yh-xzj">
+            <size key="intrinsicContentSize" width="24" height="14"/>
         </designable>
         <designable name="rao-eK-HdU">
             <size key="intrinsicContentSize" width="279" height="31"/>
@@ -1380,13 +1790,13 @@
             <size key="intrinsicContentSize" width="501.33333333333331" height="314"/>
         </designable>
         <designable name="x3o-vV-NZ0">
-            <size key="intrinsicContentSize" width="198.66666666666666" height="32"/>
+            <size key="intrinsicContentSize" width="351.33333333333331" height="32"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="F8W-Ri-Y9s"/>
-        <segue reference="NGG-JX-Ask"/>
-        <segue reference="UXQ-di-Fw8"/>
+        <segue reference="HZc-X3-6tW"/>
+        <segue reference="eaY-j1-WVO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="app_rural" width="409" height="300"/>
@@ -1401,6 +1811,11 @@
         <image name="logo_wave_effect" width="1024" height="331"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="showPassword" width="24" height="24"/>
+        <image name="total_assigned_grievance_count" width="145" height="120"/>
+        <image name="total_completed_grievance_count" width="145" height="120"/>
+        <image name="total_grievance_count" width="145" height="120"/>
+        <image name="total_pending_grievance_count" width="145" height="120"/>
+        <image name="total_reported_grievance_count" width="145" height="120"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
