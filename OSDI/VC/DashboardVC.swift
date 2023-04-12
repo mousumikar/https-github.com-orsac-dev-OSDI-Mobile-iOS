@@ -52,6 +52,15 @@ class DashboardVC: UIViewController {
     
     
     
+    @IBAction func heritageButton(_ sender: Any) {
+        performSegue(withIdentifier: "heritageSegue", sender: self)
+    }
+    
+    
+    
+    
+    
+    
     @IBAction func backBtn(_ sender: Any) {
         performSegue(withIdentifier: "backSegue", sender: self)
     }

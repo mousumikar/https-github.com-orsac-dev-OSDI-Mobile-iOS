@@ -27,6 +27,18 @@
 		446E98B529E4111A00B29B47 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98B429E4111A00B29B47 /* CustomButton.swift */; };
 		446E98B729E4165300B29B47 /* TotalGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */; };
 		447846C629E440B000C9B3E7 /* TotalGrievanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447846C529E440B000C9B3E7 /* TotalGrievanceCell.swift */; };
+		4485CEB329E5364100CF31DE /* PendingGrievanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEB229E5364100CF31DE /* PendingGrievanceCell.swift */; };
+		4485CEB529E5367D00CF31DE /* PendingGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEB429E5367D00CF31DE /* PendingGrievanceVC.swift */; };
+		4485CEB729E536A200CF31DE /* CompletedGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEB629E536A200CF31DE /* CompletedGrievanceVC.swift */; };
+		4485CEB929E536BC00CF31DE /* ReportedGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEB829E536BC00CF31DE /* ReportedGrievanceVC.swift */; };
+		4485CEBB29E536D300CF31DE /* RecheckGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEBA29E536D300CF31DE /* RecheckGrievanceVC.swift */; };
+		4485CEBD29E536EA00CF31DE /* AssignedGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEBC29E536EA00CF31DE /* AssignedGrievanceVC.swift */; };
+		4485CEBF29E5371300CF31DE /* AssignedGrievanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEBE29E5371300CF31DE /* AssignedGrievanceCell.swift */; };
+		4485CEC129E5372500CF31DE /* RecheckGrievanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEC029E5372500CF31DE /* RecheckGrievanceCell.swift */; };
+		4485CEC329E5374100CF31DE /* ReportedGrievanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEC229E5374100CF31DE /* ReportedGrievanceCell.swift */; };
+		4485CEC529E5375B00CF31DE /* CompletedGrievanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEC429E5375B00CF31DE /* CompletedGrievanceCell.swift */; };
+		4485CED129E591E000CF31DE /* HeritageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CED029E591E000CF31DE /* HeritageTableViewCell.swift */; };
+		4485CED329E5935600CF31DE /* HeritageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CED229E5935600CF31DE /* HeritageViewController.swift */; };
 		44A1075029E28D6A0017084C /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1074F29E28D6A0017084C /* MyProfileVC.swift */; };
 		44A1075229E3181C0017084C /* FilterLandInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1075129E3181C0017084C /* FilterLandInfoVC.swift */; };
 		44A1075629E332D40017084C /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A1075529E332D40017084C /* ChangePasswordVC.swift */; };
@@ -75,6 +87,18 @@
 		446E98B429E4111A00B29B47 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalGrievanceVC.swift; path = OSDI/TotalGrievanceVC.swift; sourceTree = SOURCE_ROOT; };
 		447846C529E440B000C9B3E7 /* TotalGrievanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalGrievanceCell.swift; sourceTree = "<group>"; };
+		4485CEB229E5364100CF31DE /* PendingGrievanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingGrievanceCell.swift; sourceTree = "<group>"; };
+		4485CEB429E5367D00CF31DE /* PendingGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingGrievanceVC.swift; sourceTree = "<group>"; };
+		4485CEB629E536A200CF31DE /* CompletedGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedGrievanceVC.swift; sourceTree = "<group>"; };
+		4485CEB829E536BC00CF31DE /* ReportedGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportedGrievanceVC.swift; sourceTree = "<group>"; };
+		4485CEBA29E536D300CF31DE /* RecheckGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecheckGrievanceVC.swift; sourceTree = "<group>"; };
+		4485CEBC29E536EA00CF31DE /* AssignedGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignedGrievanceVC.swift; sourceTree = "<group>"; };
+		4485CEBE29E5371300CF31DE /* AssignedGrievanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignedGrievanceCell.swift; sourceTree = "<group>"; };
+		4485CEC029E5372500CF31DE /* RecheckGrievanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecheckGrievanceCell.swift; sourceTree = "<group>"; };
+		4485CEC229E5374100CF31DE /* ReportedGrievanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportedGrievanceCell.swift; sourceTree = "<group>"; };
+		4485CEC429E5375B00CF31DE /* CompletedGrievanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedGrievanceCell.swift; sourceTree = "<group>"; };
+		4485CED029E591E000CF31DE /* HeritageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageTableViewCell.swift; sourceTree = "<group>"; };
+		4485CED229E5935600CF31DE /* HeritageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageViewController.swift; sourceTree = "<group>"; };
 		44A1074F29E28D6A0017084C /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 		44A1075129E3181C0017084C /* FilterLandInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterLandInfoVC.swift; sourceTree = "<group>"; };
 		44A1075529E332D40017084C /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
@@ -183,7 +207,6 @@
 		4460695D29E015B0002F748B /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */,
 				446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */,
 				44343AE129E1EA14009D6A80 /* LandInfoSystemVC.swift */,
 				4460695E29E015E2002F748B /* LoginViewController.swift */,
@@ -192,6 +215,14 @@
 				44A1074F29E28D6A0017084C /* MyProfileVC.swift */,
 				44A1075129E3181C0017084C /* FilterLandInfoVC.swift */,
 				44A1075529E332D40017084C /* ChangePasswordVC.swift */,
+				446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */,
+				4485CEB429E5367D00CF31DE /* PendingGrievanceVC.swift */,
+				4485CEB629E536A200CF31DE /* CompletedGrievanceVC.swift */,
+				4485CEB829E536BC00CF31DE /* ReportedGrievanceVC.swift */,
+				4485CEBA29E536D300CF31DE /* RecheckGrievanceVC.swift */,
+				4485CEBC29E536EA00CF31DE /* AssignedGrievanceVC.swift */,
+				4485CED029E591E000CF31DE /* HeritageTableViewCell.swift */,
+				4485CED229E5935600CF31DE /* HeritageViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -210,6 +241,11 @@
 			isa = PBXGroup;
 			children = (
 				447846C529E440B000C9B3E7 /* TotalGrievanceCell.swift */,
+				4485CEB229E5364100CF31DE /* PendingGrievanceCell.swift */,
+				4485CEBE29E5371300CF31DE /* AssignedGrievanceCell.swift */,
+				4485CEC029E5372500CF31DE /* RecheckGrievanceCell.swift */,
+				4485CEC229E5374100CF31DE /* ReportedGrievanceCell.swift */,
+				4485CEC429E5375B00CF31DE /* CompletedGrievanceCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -503,20 +539,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				44343ADC29E1488A009D6A80 /* RuralUrbanVC.swift in Sources */,
+				4485CEBB29E536D300CF31DE /* RecheckGrievanceVC.swift in Sources */,
 				4460695F29E015E2002F748B /* LoginViewController.swift in Sources */,
+				4485CEBD29E536EA00CF31DE /* AssignedGrievanceVC.swift in Sources */,
 				446E98B729E4165300B29B47 /* TotalGrievanceVC.swift in Sources */,
+				4485CEC129E5372500CF31DE /* RecheckGrievanceCell.swift in Sources */,
+				4485CEC529E5375B00CF31DE /* CompletedGrievanceCell.swift in Sources */,
+				4485CEB929E536BC00CF31DE /* ReportedGrievanceVC.swift in Sources */,
 				44A1075029E28D6A0017084C /* MyProfileVC.swift in Sources */,
 				446E98B529E4111A00B29B47 /* CustomButton.swift in Sources */,
+				4485CEB729E536A200CF31DE /* CompletedGrievanceVC.swift in Sources */,
 				446E98AF29E3EABE00B29B47 /* GrievanceManagementVC.swift in Sources */,
 				44343AE229E1EA14009D6A80 /* LandInfoSystemVC.swift in Sources */,
 				44A1075629E332D40017084C /* ChangePasswordVC.swift in Sources */,
 				44343AE029E1E2EC009D6A80 /* DashboardVC.swift in Sources */,
 				4460692C29E012DB002F748B /* AppDelegate.swift in Sources */,
+				4485CED129E591E000CF31DE /* HeritageTableViewCell.swift in Sources */,
 				44A1075229E3181C0017084C /* FilterLandInfoVC.swift in Sources */,
+				4485CEB529E5367D00CF31DE /* PendingGrievanceVC.swift in Sources */,
+				4485CEBF29E5371300CF31DE /* AssignedGrievanceCell.swift in Sources */,
+				4485CED329E5935600CF31DE /* HeritageViewController.swift in Sources */,
 				4460692E29E012DB002F748B /* SceneDelegate.swift in Sources */,
 				4460696229E09D3F002F748B /* CustomTextField.swift in Sources */,
 				44343AE429E1EA60009D6A80 /* Constants.swift in Sources */,
+				4485CEB329E5364100CF31DE /* PendingGrievanceCell.swift in Sources */,
 				447846C629E440B000C9B3E7 /* TotalGrievanceCell.swift in Sources */,
+				4485CEC329E5374100CF31DE /* ReportedGrievanceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,5 +22,10 @@ class TotalGrievanceCell: UICollectionViewCell {
     @IBOutlet weak var fieldStsLb: UILabel!
     @IBOutlet weak var fieldObservationLb: UILabel!
     @IBOutlet weak var fieldImage: UIImageView!
+    @IBOutlet weak var supervisorView: UIView!
+    @IBOutlet weak var superVisorDtLb: UILabel!
+    @IBOutlet weak var supervisorStsLb: UILabel!
+    @IBOutlet weak var supervisorRemarkLb: UILabel!
+    @IBOutlet weak var supervisorAssignedLb: UILabel!
     
 }
