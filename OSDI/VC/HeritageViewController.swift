@@ -6,31 +6,42 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class HeritageViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     var selectedIndex = -1
     var isCollapse = false
+ 
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        print(responseJSONData.count)
+        return responseJSONData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = heritageTableView.dequeueReusableCell(withIdentifier: "HeritageTableViewCell") as! HeritageTableViewCell
-         cell.lbPlace.text! = placeArr[indexPath.row]
-        return cell
+        cell.lbPlace.text = responseJSONData[indexPath.row]["heritageName"].string ?? "N.A"
+        cell.lbDescription.text = responseJSONData[indexPath.row]["desription"].string ?? "N.A"
+        cell.lbLocationDetails.text = responseJSONData[indexPath.row]["locationName"].string ?? "N.A"
+        cell.locationView.layer.cornerRadius = 10.0
+        cell.locationView.layer.shadowColor = UIColor.darkGray.cgColor
+        cell.locationView.layer.shadowRadius = 8.0
+        cell.locationView.layer.shadowOpacity = 0.30
+        cell.locationView.layer.shadowOffset = CGSize(width:0 , height:5)
+       return cell
     }
-    
+
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if self.selectedIndex == indexPath.row && isCollapse == true
         {
-            return 555
+            return 495
             
         }else
         {
-            return 250
+            return 300
         }
         
     }
@@ -53,11 +64,10 @@ class HeritageViewController: UIViewController,UITableViewDelegate,UITableViewDa
         self.selectedIndex = indexPath.row
         tableView.reloadRows(at: [indexPath], with: .automatic)
     }
-
+    
     
     
     @IBOutlet weak var heritageTableView: UITableView!
-     var placeArr = ["BBSR","Puri","Cuttack","Konark"]
     
     
     @IBAction func backBtnHerToDash(_ sender: Any) {
@@ -69,14 +79,62 @@ class HeritageViewController: UIViewController,UITableViewDelegate,UITableViewDa
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        createHeritageDetails()
         
-        heritageTableView.estimatedRowHeight = 555
+        heritageTableView.estimatedRowHeight = 495
         heritageTableView.rowHeight = UITableView.automaticDimension
-
+    
         
     }
+    var selcorp = "BMC"
+    var responseJSONData:JSON = JSON()
+    var api_key = "Bearer " + BEARER_TOKEN
     
+    public func createHeritageDetails(){
+        let urlString = "https://api.orsacosdi.in/OSDI2/api/heritage/getAllHeritageDataByCorporation?corp=BMC"
+        sendHeritageDetails(Authorization: api_key, corp: selcorp, url: urlString){ (response, error) in
+            if(error != nil){
+                print(error)
+                let alert = UIAlertController(title: "Message!", message: "Something went wrong!! Please check your internet connection and try again!!", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+//                do{
+//                    self.images = try JSONDecoder().decode([Image].self, from: Data!)
+//                }
 
+            }else{
+                //No Error
+                let swiftyJsonVar = JSON(response)
+                let json = JSON.init(parseJSON : swiftyJsonVar.rawString() ?? "")
+                self.responseJSONData = json
+                self.heritageTableView.reloadData()
+                print(json)
+
+            }
+        }
+    }
+
+    func sendHeritageDetails(Authorization: String,corp:String, url:String, completion: @escaping (Any?, Error?) -> ()){
+        
+        
+        let headers: HTTPHeaders = [
+            "Authorization": Authorization
+        ]
+        
+        AF.request(url,headers: headers).responseJSON { response in
+            switch response.result {
+                        case .success(let result):
+                            completion(result, nil)
+                        case .failure(let error):
+                            completion(nil, error)
+                        }
+        }
+
+    }
+    
    
 
 }
+
+   
+
+

@@ -15,4 +15,5 @@ class RecheckGrievanceCell: UICollectionViewCell {
     @IBOutlet weak var remarkLb: UILabel!
     @IBOutlet weak var recheckImage: UIImageView!
     
+    @IBOutlet weak var recheckView: UIView!
 }

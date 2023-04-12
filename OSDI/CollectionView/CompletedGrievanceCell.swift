@@ -13,5 +13,5 @@ class CompletedGrievanceCell: UICollectionViewCell {
     @IBOutlet weak var compStsLb: UILabel!
     @IBOutlet weak var compRemarkLb: UILabel!
     @IBOutlet weak var compGrivImage: UIImageView!
-    
+    @IBOutlet weak var completedGrivView: UIView!
 }

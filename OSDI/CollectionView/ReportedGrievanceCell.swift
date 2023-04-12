@@ -15,6 +15,6 @@ class ReportedGrievanceCell: UICollectionViewCell {
     @IBOutlet weak var repoGrivStsLb: UILabel!
     @IBOutlet weak var repoGrivRemakLb: UILabel!
     @IBOutlet weak var repoImage: UIImageView!
-    
+    @IBOutlet weak var reportedView: UIView!
     
 }

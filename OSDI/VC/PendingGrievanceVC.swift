@@ -22,17 +22,10 @@ class PendingGrievanceVC: UIViewController,UICollectionViewDelegate,UICollection
         pendingCell.pendingDtLb.text = responseJsonData[indexPath.row]["publicUserReportedDate"].string ?? "N.A"
         pendingCell.pendingStsLb.text = responseJsonData[indexPath.row]["publicStatus"].string ?? "N.A"
         pendingCell.pendingRemarkLb.text = responseJsonData[indexPath.row]["publicUserRemarks"].string ?? "N.A"
-       
+        pendingCell.pendingGrivTypeView.layer.cornerRadius = 10.0
         return pendingCell
     }
     
-    
-//    @IBOutlet weak var penGrivTypeLb: UILabel!
-//    @IBOutlet weak var pendingDtLb: UILabel!
-//    @IBOutlet weak var pendingStsLb: UILabel!
-//    @IBOutlet weak var pendingRemarkLb: UILabel!
-//    @IBOutlet weak var pendingImageView: UIImageView!
-//
     
     @IBAction func backBtnPending(_ sender: Any) {
         performSegue(withIdentifier: "pendingGrivToDashSegue", sender: self)
@@ -50,12 +43,12 @@ class PendingGrievanceVC: UIViewController,UICollectionViewDelegate,UICollection
     }
     
     
-    var selStatus = "ALL"
+    var selStatus = "PENDING"
     var responseJsonData:JSON = JSON()
     var api_key = "Bearer " + BEARER_TOKEN
     
     public func createPendingGrivDetails(){
-        let urlString = "https://api.orsacosdi.in/OSDI2/api/gvm/getAllGrievanceDataByStatus/ALL"
+        let urlString = "https://api.orsacosdi.in/OSDI2/api/gvm/getAllGrievanceDataByStatus/PENDING"
         sendPendingGrivDetails(Authorization: api_key, status: selStatus, url: urlString){ (response, error) in
             if(error != nil){
                 print(error)

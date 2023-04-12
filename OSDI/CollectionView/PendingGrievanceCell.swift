@@ -14,4 +14,5 @@ class PendingGrievanceCell: UICollectionViewCell {
     @IBOutlet weak var pendingStsLb: UILabel!
     @IBOutlet weak var pendingRemarkLb: UILabel!
     @IBOutlet weak var pendingImageView: UIImageView!
+    @IBOutlet weak var pendingGrivTypeView: UIView!
 }

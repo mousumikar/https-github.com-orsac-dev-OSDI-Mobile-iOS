@@ -13,7 +13,7 @@ class AssignedGrievanceCell: UICollectionViewCell {
     @IBOutlet weak var assignStsLb: UILabel!
     @IBOutlet weak var assignRemarkLb: UILabel!
     @IBOutlet weak var assignImage: UIImageView!
-    
+    @IBOutlet weak var assignedGrivTypeView: UIView!
     
     
     @IBOutlet weak var assignSupDtLb: UILabel!
