@@ -2,7 +2,7 @@
 //  TotalGrievanceCell.swift
 //  OSDI
 //
-//  Created by Shilpika Mohanty on 10/04/23.
+//  Created by Mousumi Kar on 10/04/23.
 //
 
 import UIKit
@@ -27,5 +27,7 @@ class TotalGrievanceCell: UICollectionViewCell {
     @IBOutlet weak var supervisorStsLb: UILabel!
     @IBOutlet weak var supervisorRemarkLb: UILabel!
     @IBOutlet weak var supervisorAssignedLb: UILabel!
+    
+    @IBOutlet weak var separatorView: UIView!
     
 }

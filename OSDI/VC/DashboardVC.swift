@@ -37,7 +37,6 @@ class DashboardVC: UIViewController {
              alertController.addAction(view1)
              alertController.addAction(view2)
              alertController.addAction(view3)
-//             alertController.addAction(view4)
              self.present(alertController, animated: true, completion: nil)
     }
     
@@ -53,9 +52,31 @@ class DashboardVC: UIViewController {
     
     
     @IBAction func heritageButton(_ sender: Any) {
-        performSegue(withIdentifier: "heritageSegue", sender: self)
+        performSegue(withIdentifier: "heritageStructureSegue", sender: self)
     }
     
+    
+    @IBAction func solidWasteButton(_ sender: Any) {
+        performSegue(withIdentifier: "filterSolidWasteSegue", sender: self)
+    }
+    
+    
+    
+    @IBAction func lowLyingButton(_ sender: Any) {
+        performSegue(withIdentifier: "lowLyingSegue", sender: self)
+    }
+    
+    
+    
+    @IBAction func landDeviationButton(_ sender: Any) {
+        performSegue(withIdentifier: "landDeviationSegue", sender: self)
+    }
+    
+    
+    
+    @IBAction func roadWideButton(_ sender: Any) {
+        performSegue(withIdentifier: "roadExtSegue", sender: self)
+    }
     
     
     

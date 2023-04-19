@@ -2,7 +2,7 @@
 //  HeritageViewController.swift
 //  OSDI
 //
-//  Created by Shilpika Mohanty on 11/04/23.
+//  Created by Mousumi Kar on 11/04/23.
 //
 
 import UIKit
@@ -25,14 +25,28 @@ class HeritageViewController: UIViewController,UITableViewDelegate,UITableViewDa
         cell.lbPlace.text = responseJSONData[indexPath.row]["heritageName"].string ?? "N.A"
         cell.lbDescription.text = responseJSONData[indexPath.row]["desription"].string ?? "N.A"
         cell.lbLocationDetails.text = responseJSONData[indexPath.row]["locationName"].string ?? "N.A"
-        cell.locationView.layer.cornerRadius = 10.0
-        cell.locationView.layer.shadowColor = UIColor.darkGray.cgColor
-        cell.locationView.layer.shadowRadius = 8.0
-        cell.locationView.layer.shadowOpacity = 0.30
-        cell.locationView.layer.shadowOffset = CGSize(width:0 , height:5)
-       return cell
+        cell.heritageView.layer.cornerRadius = 10.0
+        cell.heritageView.layer.shadowColor = UIColor.darkGray.cgColor
+        cell.heritageView.layer.shadowRadius = 8.0
+        cell.heritageView.layer.shadowOpacity = 0.30
+        cell.heritageView.layer.shadowOffset = CGSize(width:0 , height:5)
+        cell.heritageView.layer.borderWidth = 1
+        cell.heritageView.layer.borderColor = UIColor.tintColor.cgColor
+        cell.HeritageViewController = self
+        
+        if self.selectedIndex == indexPath.row && isCollapse == true
+        {
+//            return 495
+            cell.viewMoreBtn.isHidden = true
+            
+        }else
+        {
+            cell.viewMoreBtn.isHidden = false
+        }
+    
+        return cell
     }
-
+    
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if self.selectedIndex == indexPath.row && isCollapse == true
@@ -41,7 +55,7 @@ class HeritageViewController: UIViewController,UITableViewDelegate,UITableViewDa
             
         }else
         {
-            return 300
+            return 200
         }
         
     }
@@ -63,6 +77,7 @@ class HeritageViewController: UIViewController,UITableViewDelegate,UITableViewDa
         }
         self.selectedIndex = indexPath.row
         tableView.reloadRows(at: [indexPath], with: .automatic)
+
     }
     
     
@@ -71,7 +86,7 @@ class HeritageViewController: UIViewController,UITableViewDelegate,UITableViewDa
     
     
     @IBAction func backBtnHerToDash(_ sender: Any) {
-        performSegue(withIdentifier: "heritageToDashSegue", sender: self)
+        performSegue(withIdentifier: "backHeritageToDashboardSegue", sender: self)
     }
     
     

@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		34CE804B047DA9DEE0B0FAB9 /* Pods_OSDITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE53DC3C9FCCD081042C0B1 /* Pods_OSDITests.framework */; };
 		35594FF995D8A8D6E58556BE /* Pods_OSDI_OSDIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE1FE5F20399E384E6DBF09 /* Pods_OSDI_OSDIUITests.framework */; };
+		4432DDB329ED798800C6AC30 /* LowLyingAreaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432DDB229ED798800C6AC30 /* LowLyingAreaVC.swift */; };
+		4432DDB729EE93D200C6AC30 /* LandDeviationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432DDB629EE93D200C6AC30 /* LandDeviationVC.swift */; };
 		44343ADC29E1488A009D6A80 /* RuralUrbanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44343ADB29E1488A009D6A80 /* RuralUrbanVC.swift */; };
 		44343AE029E1E2EC009D6A80 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44343ADF29E1E2EC009D6A80 /* DashboardVC.swift */; };
 		44343AE229E1EA14009D6A80 /* LandInfoSystemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44343AE129E1EA14009D6A80 /* LandInfoSystemVC.swift */; };
 		44343AE429E1EA60009D6A80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44343AE329E1EA60009D6A80 /* Constants.swift */; };
+		4435EFB429EFD0E600CCFBDF /* RoadExtWideningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435EFB329EFD0E600CCFBDF /* RoadExtWideningVC.swift */; };
+		44422AEC29E7ECE900246AB7 /* HeritageMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44422AEB29E7ECE900246AB7 /* HeritageMapVC.swift */; };
+		44457FCE29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FCD29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift */; };
+		44457FD029ED1B0400A5BC7E /* HeriViewDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FCF29ED1B0400A5BC7E /* HeriViewDetailsCell.swift */; };
+		44457FD229ED26EF00A5BC7E /* FilterMapHeritageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FD129ED26EF00A5BC7E /* FilterMapHeritageVC.swift */; };
+		44457FD429ED502D00A5BC7E /* SolidWasteCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FD329ED502D00A5BC7E /* SolidWasteCollectionVC.swift */; };
+		44457FD629ED51F900A5BC7E /* FilterRouteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FD529ED51F900A5BC7E /* FilterRouteVC.swift */; };
 		4460692C29E012DB002F748B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460692B29E012DB002F748B /* AppDelegate.swift */; };
 		4460692E29E012DB002F748B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460692D29E012DB002F748B /* SceneDelegate.swift */; };
 		4460693329E012DB002F748B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4460693129E012DB002F748B /* Main.storyboard */; };
@@ -65,10 +74,19 @@
 /* Begin PBXFileReference section */
 		10257124567190C4CAD8E6E7 /* Pods-OSDITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSDITests.release.xcconfig"; path = "Target Support Files/Pods-OSDITests/Pods-OSDITests.release.xcconfig"; sourceTree = "<group>"; };
 		21167323C360904254DFA879 /* Pods-OSDITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSDITests.debug.xcconfig"; path = "Target Support Files/Pods-OSDITests/Pods-OSDITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4432DDB229ED798800C6AC30 /* LowLyingAreaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowLyingAreaVC.swift; sourceTree = "<group>"; };
+		4432DDB629EE93D200C6AC30 /* LandDeviationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandDeviationVC.swift; sourceTree = "<group>"; };
 		44343ADB29E1488A009D6A80 /* RuralUrbanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuralUrbanVC.swift; sourceTree = "<group>"; };
 		44343ADF29E1E2EC009D6A80 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
 		44343AE129E1EA14009D6A80 /* LandInfoSystemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandInfoSystemVC.swift; path = OSDI/LandInfoSystemVC.swift; sourceTree = SOURCE_ROOT; };
 		44343AE329E1EA60009D6A80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4435EFB329EFD0E600CCFBDF /* RoadExtWideningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadExtWideningVC.swift; sourceTree = "<group>"; };
+		44422AEB29E7ECE900246AB7 /* HeritageMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageMapVC.swift; sourceTree = "<group>"; };
+		44457FCD29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailsHeritageVC.swift; sourceTree = "<group>"; };
+		44457FCF29ED1B0400A5BC7E /* HeriViewDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeriViewDetailsCell.swift; sourceTree = "<group>"; };
+		44457FD129ED26EF00A5BC7E /* FilterMapHeritageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterMapHeritageVC.swift; sourceTree = "<group>"; };
+		44457FD329ED502D00A5BC7E /* SolidWasteCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidWasteCollectionVC.swift; sourceTree = "<group>"; };
+		44457FD529ED51F900A5BC7E /* FilterRouteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRouteVC.swift; sourceTree = "<group>"; };
 		4460692829E012DB002F748B /* OSDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4460692B29E012DB002F748B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4460692D29E012DB002F748B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -223,6 +241,14 @@
 				4485CEBC29E536EA00CF31DE /* AssignedGrievanceVC.swift */,
 				4485CED029E591E000CF31DE /* HeritageTableViewCell.swift */,
 				4485CED229E5935600CF31DE /* HeritageViewController.swift */,
+				44422AEB29E7ECE900246AB7 /* HeritageMapVC.swift */,
+				44457FCD29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift */,
+				44457FD129ED26EF00A5BC7E /* FilterMapHeritageVC.swift */,
+				44457FD329ED502D00A5BC7E /* SolidWasteCollectionVC.swift */,
+				44457FD529ED51F900A5BC7E /* FilterRouteVC.swift */,
+				4432DDB229ED798800C6AC30 /* LowLyingAreaVC.swift */,
+				4432DDB629EE93D200C6AC30 /* LandDeviationVC.swift */,
+				4435EFB329EFD0E600CCFBDF /* RoadExtWideningVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -246,6 +272,7 @@
 				4485CEC029E5372500CF31DE /* RecheckGrievanceCell.swift */,
 				4485CEC229E5374100CF31DE /* ReportedGrievanceCell.swift */,
 				4485CEC429E5375B00CF31DE /* CompletedGrievanceCell.swift */,
+				44457FCF29ED1B0400A5BC7E /* HeriViewDetailsCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -539,20 +566,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				44343ADC29E1488A009D6A80 /* RuralUrbanVC.swift in Sources */,
+				44457FD029ED1B0400A5BC7E /* HeriViewDetailsCell.swift in Sources */,
 				4485CEBB29E536D300CF31DE /* RecheckGrievanceVC.swift in Sources */,
 				4460695F29E015E2002F748B /* LoginViewController.swift in Sources */,
+				44457FCE29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift in Sources */,
 				4485CEBD29E536EA00CF31DE /* AssignedGrievanceVC.swift in Sources */,
 				446E98B729E4165300B29B47 /* TotalGrievanceVC.swift in Sources */,
 				4485CEC129E5372500CF31DE /* RecheckGrievanceCell.swift in Sources */,
 				4485CEC529E5375B00CF31DE /* CompletedGrievanceCell.swift in Sources */,
 				4485CEB929E536BC00CF31DE /* ReportedGrievanceVC.swift in Sources */,
 				44A1075029E28D6A0017084C /* MyProfileVC.swift in Sources */,
+				4435EFB429EFD0E600CCFBDF /* RoadExtWideningVC.swift in Sources */,
 				446E98B529E4111A00B29B47 /* CustomButton.swift in Sources */,
+				44422AEC29E7ECE900246AB7 /* HeritageMapVC.swift in Sources */,
 				4485CEB729E536A200CF31DE /* CompletedGrievanceVC.swift in Sources */,
+				4432DDB329ED798800C6AC30 /* LowLyingAreaVC.swift in Sources */,
 				446E98AF29E3EABE00B29B47 /* GrievanceManagementVC.swift in Sources */,
+				44457FD229ED26EF00A5BC7E /* FilterMapHeritageVC.swift in Sources */,
 				44343AE229E1EA14009D6A80 /* LandInfoSystemVC.swift in Sources */,
 				44A1075629E332D40017084C /* ChangePasswordVC.swift in Sources */,
 				44343AE029E1E2EC009D6A80 /* DashboardVC.swift in Sources */,
+				4432DDB729EE93D200C6AC30 /* LandDeviationVC.swift in Sources */,
 				4460692C29E012DB002F748B /* AppDelegate.swift in Sources */,
 				4485CED129E591E000CF31DE /* HeritageTableViewCell.swift in Sources */,
 				44A1075229E3181C0017084C /* FilterLandInfoVC.swift in Sources */,
@@ -561,10 +595,12 @@
 				4485CED329E5935600CF31DE /* HeritageViewController.swift in Sources */,
 				4460692E29E012DB002F748B /* SceneDelegate.swift in Sources */,
 				4460696229E09D3F002F748B /* CustomTextField.swift in Sources */,
+				44457FD429ED502D00A5BC7E /* SolidWasteCollectionVC.swift in Sources */,
 				44343AE429E1EA60009D6A80 /* Constants.swift in Sources */,
 				4485CEB329E5364100CF31DE /* PendingGrievanceCell.swift in Sources */,
 				447846C629E440B000C9B3E7 /* TotalGrievanceCell.swift in Sources */,
 				4485CEC329E5374100CF31DE /* ReportedGrievanceCell.swift in Sources */,
+				44457FD629ED51F900A5BC7E /* FilterRouteVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  TotalGrievanceVC.swift
 //  OSDI
 //
-//  Created by Shilpika Mohanty on 10/04/23.
+//  Created by Mousumi Kar on 10/04/23.
 //
 
 import UIKit
@@ -46,6 +46,8 @@ class TotalGrievanceVC: UIViewController,UICollectionViewDelegate,UICollectionVi
         cell.superVisorDtLb.text = responseJSONData[indexPath.row]["supervisorAssignedDate"].string ?? "N.A"
         cell.supervisorStsLb.text = responseJSONData[indexPath.row]["grievanceStatus"].string ?? "N.A"
         cell.supervisorAssignedLb.text = responseJSONData[indexPath.row]["supervisorRemark"].string ?? "N.A"
+        
+        cell.separatorView.layer.cornerRadius = 10.0
        
 //        cell.publicImageView.contentMode = .scaleToFill
 //        let defaultLink = "https://api.orsacosdi.in/OSDI2/api/gvm/getAllGrievanceDataByStatus/ALL"
@@ -55,32 +57,7 @@ class TotalGrievanceVC: UIViewController,UICollectionViewDelegate,UICollectionVi
      
     }
     
-    
-    
-//    @IBOutlet weak var publicView: UIView!
-//    @IBOutlet weak var backView: UIView!
-//    @IBOutlet weak var grievanceTypeLb: UILabel!
-//    @IBOutlet weak var publicDateLb: UILabel!
-//    @IBOutlet weak var publicStsLb: UILabel!
-//    @IBOutlet weak var pubRemarkLb: UILabel!
-//    @IBOutlet weak var publicImageView: UIImageView!
-//    @IBOutlet weak var fieldUserView: UIView!
-//    @IBOutlet weak var fieldDtLb: UILabel!
-//    @IBOutlet weak var fieldStsLb: UILabel!
-//    @IBOutlet weak var fieldObservationLb: UILabel!
-//    @IBOutlet weak var fieldImage: UIImageView!
-//    @IBOutlet weak var supervisorView: UIView!
-//    @IBOutlet weak var superVisorDtLb: UILabel!
-//    @IBOutlet weak var supervisorStsLb: UILabel!
-//    @IBOutlet weak var supervisorRemarkLb: UILabel!
-//    @IBOutlet weak var supervisorAssignedLb: UILabel!
-    
-    
-    
-    
-    
-    
-    
+
     @IBAction func backButton4(_ sender: Any) {
         performSegue(withIdentifier: "backToGrievanceSegue", sender: self)
     }

@@ -2,7 +2,7 @@
 //  GrievanceManagementVC.swift
 //  OSDI
 //
-//  Created by Shilpika Mohanty on 10/04/23.
+//  Created by Mousumi Kar on 10/04/23.
 //
 
 import UIKit
@@ -109,27 +109,6 @@ class GrievanceManagementVC: UIViewController {
                         }
         }
 
-        
-//        AF.upload(multipartFormData: { multipartFormData in
-//            var params = [String:AnyObject]()
-//            params["Authorization"] = String(Authorization) as AnyObject
-//            params["userId"] = String(userId) as AnyObject
-//            for (key, value) in params {
-//                if let data = value.data(using: String.Encoding.utf8.rawValue) {
-//                    multipartFormData.append(data, withName: key)
-//                }
-//            }
-//
-//
-//            },to: url,method:HTTPMethod.get,
-//        headers:nil).responseString { response in
-//            switch response.result {
-//                        case .success(let result):
-//                            completion(result, nil)
-//                        case .failure(let error):
-//                            completion(nil, error)
-//                        }
-//        }
     }
 
     
