@@ -208,7 +208,7 @@
             <objects>
                 <viewController id="h6r-gk-AZg" customClass="RuralUrbanVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2YG-j1-N7T">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_wave_effect" translatesAutoresizingMaskIntoConstraints="NO" id="Udk-Fl-4pm">
@@ -226,7 +226,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@ 2022 Odisha Spatial Data Infrastructure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iat-mf-hcb">
-                                <rect key="frame" x="20" y="765" width="374" height="30"/>
+                                <rect key="frame" x="20" y="785" width="374" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ZD0-So-MFp"/>
                                 </constraints>
@@ -247,11 +247,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkf-Dk-6Zl" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                        <rect key="frame" x="14" y="65" width="170" height="150"/>
+                                        <rect key="frame" x="25" y="70" width="150" height="140"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="170" id="5Os-8R-zp2"/>
-                                            <constraint firstAttribute="height" constant="150" id="Y4s-8B-hgE"/>
+                                            <constraint firstAttribute="width" constant="150" id="Vr1-RM-so6"/>
+                                            <constraint firstAttribute="height" constant="140" id="YlY-eX-vwa"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="URBAN">
@@ -274,18 +274,18 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_urban" translatesAutoresizingMaskIntoConstraints="NO" id="uuY-Fs-nZ7">
-                                        <rect key="frame" x="14" y="65" width="170" height="150"/>
+                                        <rect key="frame" x="25" y="70" width="150" height="140"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="170" id="UQV-HS-eEB"/>
-                                            <constraint firstAttribute="height" constant="150" id="ngE-cx-T3b"/>
+                                            <constraint firstAttribute="width" constant="150" id="Cy6-be-O5G"/>
+                                            <constraint firstAttribute="height" constant="140" id="dNb-ot-ZHK"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABT-ad-Cal" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                        <rect key="frame" x="200" y="65" width="170" height="150"/>
+                                        <rect key="frame" x="209" y="70" width="150" height="140"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="170" id="fQS-vm-9vF"/>
-                                            <constraint firstAttribute="height" constant="150" id="rlW-fj-QSs"/>
+                                            <constraint firstAttribute="height" constant="140" id="W2q-9c-3P6"/>
+                                            <constraint firstAttribute="width" constant="150" id="jGX-VO-87h"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="RURAL">
@@ -308,30 +308,27 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_rural" translatesAutoresizingMaskIntoConstraints="NO" id="55g-0b-qiG">
-                                        <rect key="frame" x="200" y="65" width="170" height="150"/>
+                                        <rect key="frame" x="209" y="70" width="150" height="140"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="170" id="AaQ-yn-w5y"/>
-                                            <constraint firstAttribute="height" constant="150" id="EKT-sd-zWa"/>
+                                            <constraint firstAttribute="width" constant="150" id="PBS-Ta-LMK"/>
+                                            <constraint firstAttribute="height" constant="140" id="p1C-FE-CB3"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.18587346363911669" green="0.43774847934141614" blue="0.90520787540108261" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstItem="ABT-ad-Cal" firstAttribute="top" secondItem="qSP-Ey-Z9n" secondAttribute="bottom" constant="21" id="3oK-Ok-Xxh"/>
+                                    <constraint firstItem="wkf-Dk-6Zl" firstAttribute="leading" secondItem="zHh-tS-fza" secondAttribute="leading" constant="25" id="3ir-AD-J0g"/>
                                     <constraint firstAttribute="height" constant="248" id="41i-QP-DrY"/>
                                     <constraint firstItem="qSP-Ey-Z9n" firstAttribute="leading" secondItem="zHh-tS-fza" secondAttribute="leading" constant="97" id="4P7-pH-gFt"/>
-                                    <constraint firstItem="55g-0b-qiG" firstAttribute="top" secondItem="qSP-Ey-Z9n" secondAttribute="bottom" constant="21" id="53A-4U-JYP"/>
-                                    <constraint firstItem="ABT-ad-Cal" firstAttribute="leading" secondItem="uuY-Fs-nZ7" secondAttribute="trailing" constant="16" id="C7W-pq-psF"/>
-                                    <constraint firstItem="ABT-ad-Cal" firstAttribute="leading" secondItem="wkf-Dk-6Zl" secondAttribute="trailing" constant="16" id="IvS-NV-i19"/>
-                                    <constraint firstAttribute="trailing" secondItem="ABT-ad-Cal" secondAttribute="trailing" constant="14" id="JxG-yL-h3h"/>
+                                    <constraint firstAttribute="bottom" secondItem="ABT-ad-Cal" secondAttribute="bottom" constant="38" id="7fC-FB-S43"/>
+                                    <constraint firstAttribute="trailing" secondItem="ABT-ad-Cal" secondAttribute="trailing" constant="25" id="F5m-cg-Ynk"/>
+                                    <constraint firstItem="uuY-Fs-nZ7" firstAttribute="leading" secondItem="zHh-tS-fza" secondAttribute="leading" constant="25" id="Hnk-dJ-2Lm"/>
+                                    <constraint firstAttribute="bottom" secondItem="55g-0b-qiG" secondAttribute="bottom" constant="38" id="O8u-8e-aE4"/>
                                     <constraint firstAttribute="trailing" secondItem="qSP-Ey-Z9n" secondAttribute="trailing" constant="87" id="PHv-Xm-ah2"/>
-                                    <constraint firstItem="ABT-ad-Cal" firstAttribute="leading" secondItem="wkf-Dk-6Zl" secondAttribute="trailing" constant="16" id="QVa-0f-Vka"/>
-                                    <constraint firstItem="wkf-Dk-6Zl" firstAttribute="leading" secondItem="zHh-tS-fza" secondAttribute="leading" constant="14" id="Syv-9f-CpX"/>
-                                    <constraint firstItem="wkf-Dk-6Zl" firstAttribute="top" secondItem="qSP-Ey-Z9n" secondAttribute="bottom" constant="21" id="VNQ-vS-6o9"/>
+                                    <constraint firstAttribute="bottom" secondItem="uuY-Fs-nZ7" secondAttribute="bottom" constant="38" id="Zcp-9N-4Ew"/>
                                     <constraint firstItem="qSP-Ey-Z9n" firstAttribute="top" secondItem="zHh-tS-fza" secondAttribute="top" constant="14" id="agB-tT-9l7"/>
-                                    <constraint firstAttribute="trailing" secondItem="55g-0b-qiG" secondAttribute="trailing" constant="14" id="avX-Ph-o33"/>
-                                    <constraint firstItem="uuY-Fs-nZ7" firstAttribute="leading" secondItem="zHh-tS-fza" secondAttribute="leading" constant="14" id="czQ-UQ-0tT"/>
-                                    <constraint firstItem="uuY-Fs-nZ7" firstAttribute="top" secondItem="qSP-Ey-Z9n" secondAttribute="bottom" constant="21" id="eAE-Qv-XXb"/>
+                                    <constraint firstAttribute="bottom" secondItem="wkf-Dk-6Zl" secondAttribute="bottom" constant="38" id="faz-VY-NSc"/>
+                                    <constraint firstAttribute="trailing" secondItem="55g-0b-qiG" secondAttribute="trailing" constant="25" id="s5D-JG-rXH"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -365,7 +362,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sn3-UC-PYb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1750.7246376811595" y="97.767857142857139"/>
+            <point key="canvasLocation" x="1651" y="98"/>
         </scene>
         <!--Heritage View Controller-->
         <scene sceneID="79n-re-BDg">
@@ -596,7 +593,7 @@
             <objects>
                 <viewController id="MEe-5c-ihg" customClass="LowLyingAreaVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nrr-l8-fGn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e1Z-OH-3WW">
@@ -851,7 +848,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNs-O7-Dli" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="10" y="765" width="50" height="50"/>
+                                <rect key="frame" x="10" y="785" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="RXT-Rv-zBq"/>
@@ -1182,7 +1179,7 @@
             <objects>
                 <viewController id="i81-ep-Ul2" customClass="LandDeviationVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2ky-ro-x9f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMr-BP-TWX">
@@ -1263,7 +1260,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yR5-Ua-lpI" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="8" y="740" width="50" height="50"/>
+                                <rect key="frame" x="8" y="760" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="AcD-N8-UfB"/>
@@ -1525,7 +1522,7 @@
             <objects>
                 <viewController id="IXd-El-Ndv" customClass="RoadExtWideningVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k8h-u6-f5e">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eku-Vc-ubg">
@@ -1588,7 +1585,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNf-CB-utq" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="10" y="750" width="50" height="50"/>
+                                <rect key="frame" x="10" y="770" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="7XR-Mz-2ou"/>
@@ -1967,22 +1964,83 @@
                                     <constraint firstAttribute="height" constant="783" id="TLS-0I-8VC"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UeM-uC-3Y1" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
+                                <rect key="frame" x="15" y="760" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9iB-Zh-ayZ"/>
+                                    <constraint firstAttribute="width" constant="50" id="YeJ-e6-fwA"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="map-30"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="mapTypeButton:" destination="28Q-9R-Efx" eventType="touchUpInside" id="0J6-XV-B0w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5X3-Hg-h3x" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
+                                <rect key="frame" x="349" y="130" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Yhg-3n-XQF"/>
+                                    <constraint firstAttribute="width" constant="50" id="ywy-M1-U9x"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="layers-40"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="mapLayerButton:" destination="28Q-9R-Efx" eventType="touchUpInside" id="HP1-MU-vgC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2UD-f4-Usg" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
+                                <rect key="frame" x="286" y="130" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="U5n-oC-gVl"/>
+                                    <constraint firstAttribute="height" constant="50" id="aui-fk-V2f"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="icons8-filter-35"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="filterMapButton:" destination="28Q-9R-Efx" eventType="touchUpInside" id="nmE-Bc-8i1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1Eb-qx-6nH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="cY3-0L-L3A" firstAttribute="leading" secondItem="1Eb-qx-6nH" secondAttribute="leading" id="0hp-BQ-naP"/>
+                            <constraint firstItem="5X3-Hg-h3x" firstAttribute="leading" secondItem="2UD-f4-Usg" secondAttribute="trailing" constant="13" id="1Ih-dW-gJA"/>
                             <constraint firstItem="JgS-C0-XPV" firstAttribute="top" secondItem="WVS-Iu-dks" secondAttribute="top" id="Mos-A0-RzF"/>
                             <constraint firstItem="cY3-0L-L3A" firstAttribute="top" secondItem="1Eb-qx-6nH" secondAttribute="top" constant="69" id="Xg8-10-Hfg"/>
+                            <constraint firstItem="UeM-uC-3Y1" firstAttribute="leading" secondItem="1Eb-qx-6nH" secondAttribute="leading" constant="15" id="d11-uQ-wpz"/>
                             <constraint firstItem="cY3-0L-L3A" firstAttribute="trailing" secondItem="1Eb-qx-6nH" secondAttribute="trailing" id="d6s-ss-0hN"/>
+                            <constraint firstItem="1Eb-qx-6nH" firstAttribute="trailing" secondItem="5X3-Hg-h3x" secondAttribute="trailing" constant="15" id="m5f-HN-W5i"/>
+                            <constraint firstItem="1Eb-qx-6nH" firstAttribute="bottom" secondItem="UeM-uC-3Y1" secondAttribute="bottom" constant="32" id="ppi-Ss-sbJ"/>
                             <constraint firstItem="JgS-C0-XPV" firstAttribute="leading" secondItem="1Eb-qx-6nH" secondAttribute="leading" id="rJU-19-R2r"/>
                             <constraint firstItem="JgS-C0-XPV" firstAttribute="trailing" secondItem="1Eb-qx-6nH" secondAttribute="trailing" id="rSn-nE-G5s"/>
+                            <constraint firstItem="5X3-Hg-h3x" firstAttribute="top" secondItem="JgS-C0-XPV" secondAttribute="bottom" constant="15" id="sF5-ef-vQ2"/>
+                            <constraint firstItem="2UD-f4-Usg" firstAttribute="top" secondItem="JgS-C0-XPV" secondAttribute="bottom" constant="15" id="uXN-YA-0Gk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cUu-g4-AVW"/>
                     <connections>
                         <outlet property="mapView" destination="cY3-0L-L3A" id="VTm-JS-tRt"/>
                         <segue destination="DTf-A7-kuU" kind="show" identifier="backToFilterSegue" id="6RS-QB-3kB"/>
+                        <segue destination="DTf-A7-kuU" kind="show" identifier="filterMapSegue" id="Vsf-0f-8iR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9hS-vs-2LK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2066,6 +2124,9 @@
                                 <buttonConfiguration key="configuration" style="plain" image="dropdopwn" title="Select Ward" imagePadding="200">
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="15"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="selectWardButton:" destination="DTf-A7-kuU" eventType="touchUpInside" id="fhK-90-pjO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDQ-43-QDS">
                                 <rect key="frame" x="20" y="292" width="374" height="50"/>
@@ -2077,6 +2138,9 @@
                                 <buttonConfiguration key="configuration" style="plain" image="dropdopwn" title="Select Route" imagePadding="200">
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="15"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="selectRouteButton:" destination="DTf-A7-kuU" eventType="touchUpInside" id="dBf-vy-H36"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bt-cD-XYm" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
                                 <rect key="frame" x="20" y="414" width="374" height="50"/>
@@ -2134,6 +2198,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="p7g-N4-9sG"/>
                     <connections>
+                        <outlet property="selectRouteBtn" destination="rDQ-43-QDS" id="3dA-O4-VbI"/>
+                        <outlet property="selectWardBtn" destination="JvK-GV-jF1" id="tUy-Qg-Mps"/>
                         <segue destination="SnP-mV-eak" kind="show" identifier="filterSolidToDashSegue" id="0SU-GW-23i"/>
                         <segue destination="28Q-9R-Efx" kind="show" identifier="searchSolidWasteSegue" id="S3y-In-F8R"/>
                     </connections>
@@ -2617,8 +2683,8 @@
         <scene sceneID="qro-rl-wsQ">
             <objects>
                 <viewController id="SnP-mV-eak" customClass="DashboardVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Meb-cA-Nbl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
+                    <view key="view" contentMode="scaleToFill" id="Meb-cA-Nbl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ejA-fY-8Z4">
@@ -2692,7 +2758,7 @@
                                     <constraint firstItem="zEJ-kr-Nxu" firstAttribute="leading" secondItem="ejA-fY-8Z4" secondAttribute="leadingMargin" id="zcF-v5-tRa"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbh-oU-ngw">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbh-oU-ngw">
                                 <rect key="frame" x="0.0" y="127" width="414" height="839"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekf-X8-Gm4">
@@ -3071,7 +3137,7 @@
             <objects>
                 <viewController id="UFA-yj-OTp" customClass="MyProfileVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ugh-tm-VuU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lPj-9a-Jgs">
@@ -3206,7 +3272,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom_pattern" translatesAutoresizingMaskIntoConstraints="NO" id="HRX-PY-hKj">
-                                <rect key="frame" x="0.0" y="761" width="414" height="77"/>
+                                <rect key="frame" x="0.0" y="781" width="414" height="77"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="77" id="z8N-vd-N8z"/>
                                 </constraints>
@@ -3287,14 +3353,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6CH-b3-aGV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3195.6521739130435" y="131.91964285714286"/>
+            <point key="canvasLocation" x="3272" y="64"/>
         </scene>
         <!--Change PasswordVC-->
         <scene sceneID="q2j-le-qY3">
             <objects>
                 <viewController id="AGJ-gK-2FN" customClass="ChangePasswordVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XQA-Ea-Jc7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fL-9s-RnF">
@@ -3449,14 +3515,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMK-r0-91r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3931.884057971015" y="131.91964285714286"/>
+            <point key="canvasLocation" x="4070" y="64"/>
         </scene>
         <!--Social InfraVC-->
         <scene sceneID="der-4D-YIg">
             <objects>
                 <viewController id="WEU-ma-zcd" customClass="SocialInfraVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FV4-qI-66h">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="892"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zz6-Ll-H9P">
@@ -3494,7 +3560,7 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BvR-JU-dxI">
-                                <rect key="frame" x="0.0" y="128" width="414" height="678"/>
+                                <rect key="frame" x="0.0" y="128" width="414" height="698"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JbF-YI-mfb">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="720"/>
@@ -3897,7 +3963,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="jdL-eR-OTH"/>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1E-C7-r8E" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="849" width="414" height="50"/>
+                                <rect key="frame" x="0.0" y="869" width="414" height="50"/>
                                 <color key="backgroundColor" red="0.29971085716558005" green="0.12121242556870004" blue="0.76805156108104822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Nmy-75-82b"/>
@@ -3914,7 +3980,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3c-YX-g6D" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="340" y="793" width="50" height="50"/>
+                                <rect key="frame" x="340" y="813" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.13446551179999999" green="0.32296254530000001" blue="0.62343100949999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="5mh-lU-p1A"/>
@@ -3957,14 +4023,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fKO-cY-jeY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5026.0869565217399" y="30.803571428571427"/>
+            <point key="canvasLocation" x="7987" y="-672"/>
         </scene>
         <!--Utility InfraVC-->
         <scene sceneID="CTK-Qh-JhF">
             <objects>
                 <viewController id="wAg-He-RRO" customClass="UtilityInfraVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Np9-NY-xji">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgC-fW-sNW">
@@ -4306,7 +4372,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ech-V3-6QQ" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="4" y="792" width="406" height="50"/>
+                                <rect key="frame" x="4" y="812" width="406" height="50"/>
                                 <color key="backgroundColor" red="0.29971085720000001" green="0.12121242560000001" blue="0.76805156109999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="kdS-Rz-LuZ"/>
@@ -4323,7 +4389,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Be-Vk-aJI" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="349" y="733" width="50" height="50"/>
+                                <rect key="frame" x="349" y="753" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.13446551179999999" green="0.32296254530000001" blue="0.62343100949999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="g2m-DG-IDc"/>
@@ -4388,14 +4454,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ju-Ue-h6v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5866.666666666667" y="14.732142857142856"/>
+            <point key="canvasLocation" x="8719" y="-688"/>
         </scene>
         <!--Land Info SystemVC-->
         <scene sceneID="fGI-vZ-iJa">
             <objects>
                 <viewController id="glo-QL-Mh4" customClass="LandInfoSystemVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="563-vu-ces">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="841-dq-buZ">
@@ -4440,7 +4506,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVM-TU-kGJ" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="338" y="764" width="50" height="50"/>
+                                <rect key="frame" x="338" y="784" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="gdv-Sq-OEC"/>
@@ -4497,7 +4563,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REs-ea-oaj" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="30" y="764" width="50" height="50"/>
+                                <rect key="frame" x="30" y="784" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="IAd-h7-qIX"/>
@@ -4551,7 +4617,7 @@
             <objects>
                 <viewController id="13w-QW-LRO" customClass="FilterLandInfoVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bbC-oF-xus">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37G-Ux-hd8">
@@ -4589,7 +4655,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="jEX-G7-Uzt">
-                                <rect key="frame" x="0.0" y="113" width="414" height="729"/>
+                                <rect key="frame" x="0.0" y="113" width="414" height="2000"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="729" id="t4S-Cz-rvg"/>
                                 </constraints>
@@ -6076,7 +6142,7 @@
             <objects>
                 <viewController id="Lgs-n7-wPr" customClass="RuralDashBoardVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rbj-lw-hME">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bJa-cA-Yhz">
@@ -6130,7 +6196,7 @@
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KrD-DY-V5G">
-                                <rect key="frame" x="0.0" y="126" width="414" height="820"/>
+                                <rect key="frame" x="0.0" y="126" width="414" height="874"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jrB-39-DKF">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
@@ -6594,7 +6660,7 @@
             <objects>
                 <viewController id="XKB-5A-osz" customClass="LandOwnershipVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GAu-r3-0Q2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y9i-eF-fKH" customClass="GMSMapView">
@@ -6641,7 +6707,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAs-Bj-TKH" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="20" y="750" width="50" height="50"/>
+                                <rect key="frame" x="20" y="770" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="NFi-Ms-GyZ"/>
@@ -6868,7 +6934,7 @@
             <objects>
                 <viewController id="S5E-vJ-Hvb" customClass="GovtLandInfoVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dnr-C7-3aB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efv-Sa-wGD">
@@ -7085,7 +7151,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhc-3s-qu0" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="20" y="752" width="50" height="50"/>
+                                <rect key="frame" x="20" y="772" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="bEN-Pn-WHI"/>
@@ -7103,7 +7169,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D24-eq-m0b" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="90" y="752" width="50" height="50"/>
+                                <rect key="frame" x="90" y="772" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.098847057599999996" green="0.24225612360000001" blue="0.5" alpha="0.74205158559999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="o7o-CB-HUg"/>
@@ -7164,7 +7230,7 @@
             <objects>
                 <viewController id="OZa-RC-cCy" customClass="GovtLandInfoDetailsVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="448-yQ-36A">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AIW-oA-OSq">
@@ -7202,7 +7268,7 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="z3r-rC-21h">
-                                <rect key="frame" x="0.0" y="140" width="414" height="668"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="688"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="UI8-Az-T95">
                                     <size key="itemSize" width="393" height="271"/>
@@ -7460,7 +7526,7 @@
             <objects>
                 <viewController id="Qsf-Cj-DEX" customClass="LandLeaseVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bRk-PJ-hBu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ioM-dc-bVf">
@@ -7706,7 +7772,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoC-eq-OIT" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="344" y="762" width="50" height="50"/>
+                                <rect key="frame" x="344" y="782" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.13446551184768527" green="0.32296254531077184" blue="0.62343100947563101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="4sc-GS-TPX"/>
@@ -7908,7 +7974,7 @@
             <objects>
                 <viewController id="3g6-vl-P2n" customClass="LandAcquisitionVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3fI-q1-uR7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcI-gf-niq">
@@ -8052,7 +8118,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwt-wf-INf" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="354" y="765" width="50" height="50"/>
+                                <rect key="frame" x="354" y="785" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.13446551179999999" green="0.32296254530000001" blue="0.62343100949999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="AnX-k9-J7h"/>
@@ -8102,7 +8168,7 @@
             <objects>
                 <viewController id="oNa-6X-u63" customClass="CoalBlockVC" customModule="OSDI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vvS-jo-dun">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vD3-M8-uE8">
@@ -8247,7 +8313,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lth-Pe-tY3" customClass="CustomButton" customModule="OSDI" customModuleProvider="target">
-                                <rect key="frame" x="344" y="782" width="50" height="50"/>
+                                <rect key="frame" x="344" y="802" width="50" height="50"/>
                                 <color key="backgroundColor" red="0.13446551179999999" green="0.32296254530000001" blue="0.62343100949999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="NCf-8S-cnn"/>
@@ -9066,6 +9132,9 @@
         <designable name="2IP-UI-9DV">
             <size key="intrinsicContentSize" width="24" height="14"/>
         </designable>
+        <designable name="2UD-f4-Usg">
+            <size key="intrinsicContentSize" width="59" height="49"/>
+        </designable>
         <designable name="2wd-M2-5SE">
             <size key="intrinsicContentSize" width="24" height="14"/>
         </designable>
@@ -9080,6 +9149,9 @@
         </designable>
         <designable name="562-b0-9Ca">
             <size key="intrinsicContentSize" width="24" height="14"/>
+        </designable>
+        <designable name="5X3-Hg-h3x">
+            <size key="intrinsicContentSize" width="64" height="54"/>
         </designable>
         <designable name="5gr-AC-vK2">
             <size key="intrinsicContentSize" width="54" height="44"/>
@@ -9200,6 +9272,9 @@
         </designable>
         <designable name="US3-I0-4He">
             <size key="intrinsicContentSize" width="64" height="54"/>
+        </designable>
+        <designable name="UeM-uC-3Y1">
+            <size key="intrinsicContentSize" width="54" height="44"/>
         </designable>
         <designable name="Ugs-G7-dCV">
             <size key="intrinsicContentSize" width="24" height="14"/>
@@ -9381,14 +9456,14 @@
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="UZP-dY-wtb"/>
-        <segue reference="jja-Wc-9IX"/>
-        <segue reference="RBD-cy-eaE"/>
+        <segue reference="CJ8-KK-9nw"/>
+        <segue reference="HEE-lG-08r"/>
         <segue reference="F8W-Ri-Y9s"/>
         <segue reference="Ntn-go-nGb"/>
-        <segue reference="svH-iG-jmI"/>
+        <segue reference="Vsf-0f-8iR"/>
         <segue reference="IBu-z7-g9u"/>
         <segue reference="CCi-c5-MFm"/>
-        <segue reference="a5i-vA-1fK"/>
+        <segue reference="eaY-j1-WVO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="No_Image_Available" width="547" height="547"/>

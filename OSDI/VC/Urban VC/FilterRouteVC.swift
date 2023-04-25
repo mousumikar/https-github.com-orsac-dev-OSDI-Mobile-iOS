@@ -10,6 +10,10 @@ import UIKit
 class FilterRouteVC: UIViewController {
     
     
+    @IBOutlet weak var selectWardBtn: UIButton!
+    
+    
+    @IBOutlet weak var selectRouteBtn: UIButton!
     
     @IBAction func btnFromFilToDash(_ sender: Any) {
         performSegue(withIdentifier: "filterSolidToDashSegue", sender: self)
@@ -23,9 +27,21 @@ class FilterRouteVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        selectWardBtn.layer.cornerRadius = 10.0
+        selectRouteBtn.layer.cornerRadius = 10.0
         
     }
+    
+    @IBAction func selectWardButton(_ sender: Any) {
+    }
+    
+    
+    @IBAction func selectRouteButton(_ sender: Any) {
+    }
+    
+    
+    
+    
     
 
    

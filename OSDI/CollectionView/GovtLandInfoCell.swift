@@ -2,7 +2,7 @@
 //  GovtLandInfoCell.swift
 //  OSDI
 //
-//  Created by Shilpika Mohanty on 21/04/23.
+//  Created by Mousumi Kar on 21/04/23.
 //
 
 import UIKit

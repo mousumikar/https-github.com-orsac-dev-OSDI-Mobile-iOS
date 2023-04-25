@@ -2,7 +2,7 @@
 //  RuralDashBoardVC.swift
 //  OSDI
 //
-//  Created by Shilpika Mohanty on 20/04/23.
+//  Created by Mousumi Kar on 20/04/23.
 //
 
 import UIKit

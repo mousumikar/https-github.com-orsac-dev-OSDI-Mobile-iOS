@@ -2,7 +2,7 @@
 //  SocialInfraVC.swift
 //  OSDI
 //
-//  Created by Shilpika Mohanty on 24/04/23.
+//  Created by Mousumi Kar on 24/04/23.
 //
 
 import UIKit
