@@ -23,6 +23,7 @@ class RuralUrbanVC: UIViewController {
     
     
     @IBAction func ruralButton(_ sender: Any) {
+        performSegue(withIdentifier: "ruralSegue", sender: self)
     }
     
     

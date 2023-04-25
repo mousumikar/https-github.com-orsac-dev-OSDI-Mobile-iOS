@@ -21,7 +21,6 @@ class RoadExtWideningVC: UIViewController,CLLocationManagerDelegate, GMSMapViewD
 
     @IBOutlet weak var mapView: GMSMapView!
     @IBOutlet weak var mapLayerView: UIView!
-    
     @IBAction func mapLayerBtn(_ sender: Any) {
         if checked {
             mapLayerView.isHidden = false
@@ -42,11 +41,7 @@ class RoadExtWideningVC: UIViewController,CLLocationManagerDelegate, GMSMapViewD
              checked = true
             }
     }
-    
-    
-    
-    
-    
+ 
     @IBAction func mapTypeBtn(_ sender: Any) {
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
          alert.modalPresentationStyle = .custom

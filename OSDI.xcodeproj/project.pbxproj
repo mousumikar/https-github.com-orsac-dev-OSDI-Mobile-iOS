@@ -17,11 +17,19 @@
 		44343AE429E1EA60009D6A80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44343AE329E1EA60009D6A80 /* Constants.swift */; };
 		4435EFB429EFD0E600CCFBDF /* RoadExtWideningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435EFB329EFD0E600CCFBDF /* RoadExtWideningVC.swift */; };
 		44422AEC29E7ECE900246AB7 /* HeritageMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44422AEB29E7ECE900246AB7 /* HeritageMapVC.swift */; };
+		4442F28629F650E800BDDB8B /* LandLeaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442F28529F650E800BDDB8B /* LandLeaseVC.swift */; };
+		44451EA729F25A5F00CBF1D3 /* LandOwnershipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44451EA629F25A5F00CBF1D3 /* LandOwnershipVC.swift */; };
+		44451EA929F29F6000CBF1D3 /* GovtLandInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44451EA829F29F6000CBF1D3 /* GovtLandInfoVC.swift */; };
+		44451EAB29F2C0FD00CBF1D3 /* GovtLandInfoDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44451EAA29F2C0FD00CBF1D3 /* GovtLandInfoDetailsVC.swift */; };
+		44451EAD29F2C13E00CBF1D3 /* GovtLandInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44451EAC29F2C13E00CBF1D3 /* GovtLandInfoCell.swift */; };
 		44457FCE29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FCD29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift */; };
 		44457FD029ED1B0400A5BC7E /* HeriViewDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FCF29ED1B0400A5BC7E /* HeriViewDetailsCell.swift */; };
 		44457FD229ED26EF00A5BC7E /* FilterMapHeritageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FD129ED26EF00A5BC7E /* FilterMapHeritageVC.swift */; };
 		44457FD429ED502D00A5BC7E /* SolidWasteCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FD329ED502D00A5BC7E /* SolidWasteCollectionVC.swift */; };
 		44457FD629ED51F900A5BC7E /* FilterRouteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44457FD529ED51F900A5BC7E /* FilterRouteVC.swift */; };
+		4455754D29F79A650086B427 /* UtilityInfraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455754C29F79A650086B427 /* UtilityInfraVC.swift */; };
+		4455754F29F7AC0D0086B427 /* CoalBlockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455754E29F7AC0D0086B427 /* CoalBlockVC.swift */; };
+		4455755129F7AC290086B427 /* FarmLandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455755029F7AC290086B427 /* FarmLandVC.swift */; };
 		4460692C29E012DB002F748B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460692B29E012DB002F748B /* AppDelegate.swift */; };
 		4460692E29E012DB002F748B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460692D29E012DB002F748B /* SceneDelegate.swift */; };
 		4460693329E012DB002F748B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4460693129E012DB002F748B /* Main.storyboard */; };
@@ -32,9 +40,12 @@
 		4460694F29E012DD002F748B /* OSDIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460694E29E012DD002F748B /* OSDIUITestsLaunchTests.swift */; };
 		4460695F29E015E2002F748B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460695E29E015E2002F748B /* LoginViewController.swift */; };
 		4460696229E09D3F002F748B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460696129E09D3F002F748B /* CustomTextField.swift */; };
+		446AAD1E29F682A2001CE379 /* LandAcquisitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AAD1D29F682A2001CE379 /* LandAcquisitionVC.swift */; };
+		446AAD2029F68E02001CE379 /* SocialInfraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446AAD1F29F68E02001CE379 /* SocialInfraVC.swift */; };
 		446E98AF29E3EABE00B29B47 /* GrievanceManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */; };
 		446E98B529E4111A00B29B47 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98B429E4111A00B29B47 /* CustomButton.swift */; };
 		446E98B729E4165300B29B47 /* TotalGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */; };
+		4476702A29F120D1001C748C /* RuralDashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4476702929F120D1001C748C /* RuralDashBoardVC.swift */; };
 		447846C629E440B000C9B3E7 /* TotalGrievanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447846C529E440B000C9B3E7 /* TotalGrievanceCell.swift */; };
 		4485CEB329E5364100CF31DE /* PendingGrievanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEB229E5364100CF31DE /* PendingGrievanceCell.swift */; };
 		4485CEB529E5367D00CF31DE /* PendingGrievanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485CEB429E5367D00CF31DE /* PendingGrievanceVC.swift */; };
@@ -78,15 +89,23 @@
 		4432DDB629EE93D200C6AC30 /* LandDeviationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandDeviationVC.swift; sourceTree = "<group>"; };
 		44343ADB29E1488A009D6A80 /* RuralUrbanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuralUrbanVC.swift; sourceTree = "<group>"; };
 		44343ADF29E1E2EC009D6A80 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
-		44343AE129E1EA14009D6A80 /* LandInfoSystemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandInfoSystemVC.swift; path = OSDI/LandInfoSystemVC.swift; sourceTree = SOURCE_ROOT; };
+		44343AE129E1EA14009D6A80 /* LandInfoSystemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandInfoSystemVC.swift; path = "OSDI/VC/Urban VC/LandInfoSystemVC.swift"; sourceTree = SOURCE_ROOT; };
 		44343AE329E1EA60009D6A80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4435EFB329EFD0E600CCFBDF /* RoadExtWideningVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadExtWideningVC.swift; sourceTree = "<group>"; };
 		44422AEB29E7ECE900246AB7 /* HeritageMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeritageMapVC.swift; sourceTree = "<group>"; };
+		4442F28529F650E800BDDB8B /* LandLeaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandLeaseVC.swift; sourceTree = "<group>"; };
+		44451EA629F25A5F00CBF1D3 /* LandOwnershipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandOwnershipVC.swift; sourceTree = "<group>"; };
+		44451EA829F29F6000CBF1D3 /* GovtLandInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovtLandInfoVC.swift; sourceTree = "<group>"; };
+		44451EAA29F2C0FD00CBF1D3 /* GovtLandInfoDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GovtLandInfoDetailsVC.swift; path = "OSDI/VC/Rural VC/GovtLandInfoDetailsVC.swift"; sourceTree = SOURCE_ROOT; };
+		44451EAC29F2C13E00CBF1D3 /* GovtLandInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovtLandInfoCell.swift; sourceTree = "<group>"; };
 		44457FCD29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailsHeritageVC.swift; sourceTree = "<group>"; };
 		44457FCF29ED1B0400A5BC7E /* HeriViewDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeriViewDetailsCell.swift; sourceTree = "<group>"; };
 		44457FD129ED26EF00A5BC7E /* FilterMapHeritageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterMapHeritageVC.swift; sourceTree = "<group>"; };
 		44457FD329ED502D00A5BC7E /* SolidWasteCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidWasteCollectionVC.swift; sourceTree = "<group>"; };
 		44457FD529ED51F900A5BC7E /* FilterRouteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRouteVC.swift; sourceTree = "<group>"; };
+		4455754C29F79A650086B427 /* UtilityInfraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityInfraVC.swift; sourceTree = "<group>"; };
+		4455754E29F7AC0D0086B427 /* CoalBlockVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoalBlockVC.swift; sourceTree = "<group>"; };
+		4455755029F7AC290086B427 /* FarmLandVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmLandVC.swift; sourceTree = "<group>"; };
 		4460692829E012DB002F748B /* OSDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4460692B29E012DB002F748B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4460692D29E012DB002F748B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,9 +120,12 @@
 		4460694E29E012DD002F748B /* OSDIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSDIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4460695E29E015E2002F748B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4460696129E09D3F002F748B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GrievanceManagementVC.swift; path = OSDI/GrievanceManagementVC.swift; sourceTree = SOURCE_ROOT; };
+		446AAD1D29F682A2001CE379 /* LandAcquisitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandAcquisitionVC.swift; sourceTree = "<group>"; };
+		446AAD1F29F68E02001CE379 /* SocialInfraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialInfraVC.swift; sourceTree = "<group>"; };
+		446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GrievanceManagementVC.swift; path = "OSDI/VC/Urban VC/GrievanceManagementVC.swift"; sourceTree = SOURCE_ROOT; };
 		446E98B429E4111A00B29B47 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalGrievanceVC.swift; path = OSDI/TotalGrievanceVC.swift; sourceTree = SOURCE_ROOT; };
+		446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalGrievanceVC.swift; path = "OSDI/VC/Urban VC/TotalGrievanceVC.swift"; sourceTree = SOURCE_ROOT; };
+		4476702929F120D1001C748C /* RuralDashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuralDashBoardVC.swift; sourceTree = "<group>"; };
 		447846C529E440B000C9B3E7 /* TotalGrievanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalGrievanceCell.swift; sourceTree = "<group>"; };
 		4485CEB229E5364100CF31DE /* PendingGrievanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingGrievanceCell.swift; sourceTree = "<group>"; };
 		4485CEB429E5367D00CF31DE /* PendingGrievanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingGrievanceVC.swift; sourceTree = "<group>"; };
@@ -225,30 +247,12 @@
 		4460695D29E015B0002F748B /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */,
-				44343AE129E1EA14009D6A80 /* LandInfoSystemVC.swift */,
+				446AAD1C29F68209001CE379 /* Urban VC */,
+				446AAD1B29F68168001CE379 /* Rural VC */,
 				4460695E29E015E2002F748B /* LoginViewController.swift */,
 				44343ADB29E1488A009D6A80 /* RuralUrbanVC.swift */,
-				44343ADF29E1E2EC009D6A80 /* DashboardVC.swift */,
 				44A1074F29E28D6A0017084C /* MyProfileVC.swift */,
-				44A1075129E3181C0017084C /* FilterLandInfoVC.swift */,
 				44A1075529E332D40017084C /* ChangePasswordVC.swift */,
-				446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */,
-				4485CEB429E5367D00CF31DE /* PendingGrievanceVC.swift */,
-				4485CEB629E536A200CF31DE /* CompletedGrievanceVC.swift */,
-				4485CEB829E536BC00CF31DE /* ReportedGrievanceVC.swift */,
-				4485CEBA29E536D300CF31DE /* RecheckGrievanceVC.swift */,
-				4485CEBC29E536EA00CF31DE /* AssignedGrievanceVC.swift */,
-				4485CED029E591E000CF31DE /* HeritageTableViewCell.swift */,
-				4485CED229E5935600CF31DE /* HeritageViewController.swift */,
-				44422AEB29E7ECE900246AB7 /* HeritageMapVC.swift */,
-				44457FCD29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift */,
-				44457FD129ED26EF00A5BC7E /* FilterMapHeritageVC.swift */,
-				44457FD329ED502D00A5BC7E /* SolidWasteCollectionVC.swift */,
-				44457FD529ED51F900A5BC7E /* FilterRouteVC.swift */,
-				4432DDB229ED798800C6AC30 /* LowLyingAreaVC.swift */,
-				4432DDB629EE93D200C6AC30 /* LandDeviationVC.swift */,
-				4435EFB329EFD0E600CCFBDF /* RoadExtWideningVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -263,6 +267,50 @@
 			path = Utili;
 			sourceTree = "<group>";
 		};
+		446AAD1B29F68168001CE379 /* Rural VC */ = {
+			isa = PBXGroup;
+			children = (
+				4476702929F120D1001C748C /* RuralDashBoardVC.swift */,
+				44451EA629F25A5F00CBF1D3 /* LandOwnershipVC.swift */,
+				44451EA829F29F6000CBF1D3 /* GovtLandInfoVC.swift */,
+				44451EAA29F2C0FD00CBF1D3 /* GovtLandInfoDetailsVC.swift */,
+				4442F28529F650E800BDDB8B /* LandLeaseVC.swift */,
+				446AAD1D29F682A2001CE379 /* LandAcquisitionVC.swift */,
+				446AAD1F29F68E02001CE379 /* SocialInfraVC.swift */,
+				4455754C29F79A650086B427 /* UtilityInfraVC.swift */,
+				4455754E29F7AC0D0086B427 /* CoalBlockVC.swift */,
+				4455755029F7AC290086B427 /* FarmLandVC.swift */,
+			);
+			path = "Rural VC";
+			sourceTree = "<group>";
+		};
+		446AAD1C29F68209001CE379 /* Urban VC */ = {
+			isa = PBXGroup;
+			children = (
+				44343ADF29E1E2EC009D6A80 /* DashboardVC.swift */,
+				446E98AE29E3EABE00B29B47 /* GrievanceManagementVC.swift */,
+				44343AE129E1EA14009D6A80 /* LandInfoSystemVC.swift */,
+				44A1075129E3181C0017084C /* FilterLandInfoVC.swift */,
+				446E98B629E4165300B29B47 /* TotalGrievanceVC.swift */,
+				4485CEB429E5367D00CF31DE /* PendingGrievanceVC.swift */,
+				4485CEB829E536BC00CF31DE /* ReportedGrievanceVC.swift */,
+				4485CEB629E536A200CF31DE /* CompletedGrievanceVC.swift */,
+				4485CEBA29E536D300CF31DE /* RecheckGrievanceVC.swift */,
+				4485CEBC29E536EA00CF31DE /* AssignedGrievanceVC.swift */,
+				4485CED029E591E000CF31DE /* HeritageTableViewCell.swift */,
+				4485CED229E5935600CF31DE /* HeritageViewController.swift */,
+				44422AEB29E7ECE900246AB7 /* HeritageMapVC.swift */,
+				44457FCD29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift */,
+				44457FD129ED26EF00A5BC7E /* FilterMapHeritageVC.swift */,
+				44457FD329ED502D00A5BC7E /* SolidWasteCollectionVC.swift */,
+				44457FD529ED51F900A5BC7E /* FilterRouteVC.swift */,
+				4432DDB229ED798800C6AC30 /* LowLyingAreaVC.swift */,
+				4432DDB629EE93D200C6AC30 /* LandDeviationVC.swift */,
+				4435EFB329EFD0E600CCFBDF /* RoadExtWideningVC.swift */,
+			);
+			path = "Urban VC";
+			sourceTree = "<group>";
+		};
 		447846C429E43FCE00C9B3E7 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +321,7 @@
 				4485CEC229E5374100CF31DE /* ReportedGrievanceCell.swift */,
 				4485CEC429E5375B00CF31DE /* CompletedGrievanceCell.swift */,
 				44457FCF29ED1B0400A5BC7E /* HeriViewDetailsCell.swift */,
+				44451EAC29F2C13E00CBF1D3 /* GovtLandInfoCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -565,11 +614,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446AAD1E29F682A2001CE379 /* LandAcquisitionVC.swift in Sources */,
+				44451EAB29F2C0FD00CBF1D3 /* GovtLandInfoDetailsVC.swift in Sources */,
 				44343ADC29E1488A009D6A80 /* RuralUrbanVC.swift in Sources */,
+				4442F28629F650E800BDDB8B /* LandLeaseVC.swift in Sources */,
 				44457FD029ED1B0400A5BC7E /* HeriViewDetailsCell.swift in Sources */,
 				4485CEBB29E536D300CF31DE /* RecheckGrievanceVC.swift in Sources */,
 				4460695F29E015E2002F748B /* LoginViewController.swift in Sources */,
+				4455755129F7AC290086B427 /* FarmLandVC.swift in Sources */,
 				44457FCE29ED1AB000A5BC7E /* ViewDetailsHeritageVC.swift in Sources */,
+				44451EAD29F2C13E00CBF1D3 /* GovtLandInfoCell.swift in Sources */,
+				44451EA729F25A5F00CBF1D3 /* LandOwnershipVC.swift in Sources */,
 				4485CEBD29E536EA00CF31DE /* AssignedGrievanceVC.swift in Sources */,
 				446E98B729E4165300B29B47 /* TotalGrievanceVC.swift in Sources */,
 				4485CEC129E5372500CF31DE /* RecheckGrievanceCell.swift in Sources */,
@@ -586,13 +641,17 @@
 				44343AE229E1EA14009D6A80 /* LandInfoSystemVC.swift in Sources */,
 				44A1075629E332D40017084C /* ChangePasswordVC.swift in Sources */,
 				44343AE029E1E2EC009D6A80 /* DashboardVC.swift in Sources */,
+				446AAD2029F68E02001CE379 /* SocialInfraVC.swift in Sources */,
 				4432DDB729EE93D200C6AC30 /* LandDeviationVC.swift in Sources */,
+				4476702A29F120D1001C748C /* RuralDashBoardVC.swift in Sources */,
+				4455754F29F7AC0D0086B427 /* CoalBlockVC.swift in Sources */,
 				4460692C29E012DB002F748B /* AppDelegate.swift in Sources */,
 				4485CED129E591E000CF31DE /* HeritageTableViewCell.swift in Sources */,
 				44A1075229E3181C0017084C /* FilterLandInfoVC.swift in Sources */,
 				4485CEB529E5367D00CF31DE /* PendingGrievanceVC.swift in Sources */,
 				4485CEBF29E5371300CF31DE /* AssignedGrievanceCell.swift in Sources */,
 				4485CED329E5935600CF31DE /* HeritageViewController.swift in Sources */,
+				4455754D29F79A650086B427 /* UtilityInfraVC.swift in Sources */,
 				4460692E29E012DB002F748B /* SceneDelegate.swift in Sources */,
 				4460696229E09D3F002F748B /* CustomTextField.swift in Sources */,
 				44457FD429ED502D00A5BC7E /* SolidWasteCollectionVC.swift in Sources */,
@@ -601,6 +660,7 @@
 				447846C629E440B000C9B3E7 /* TotalGrievanceCell.swift in Sources */,
 				4485CEC329E5374100CF31DE /* ReportedGrievanceCell.swift in Sources */,
 				44457FD629ED51F900A5BC7E /* FilterRouteVC.swift in Sources */,
+				44451EA929F29F6000CBF1D3 /* GovtLandInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

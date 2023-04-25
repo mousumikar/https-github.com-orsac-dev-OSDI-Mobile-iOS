@@ -24,6 +24,17 @@ class CustomButton: UIButton {
             layer.shadowOpacity = self.shadowOpacity
         }
     }
+    
+    @IBInspectable var shadowRadius: CGFloat = 0 {
+        didSet {
+            layer.shadowRadius = self.shadowRadius
+        }
+    }
+    @IBInspectable var shadowColor: UIColor? = UIColor.clear {
+        didSet {
+            layer.shadowColor = self.shadowColor?.cgColor
+        }
+    }
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = self.cornerRadius
@@ -42,6 +53,8 @@ class CustomButton: UIButton {
         self.layer.borderWidth = self.borderWidth
         self.layer.borderColor = self.borderColor?.cgColor
         self.layer.shadowOpacity=self.shadowOpacity
+        self.layer.shadowRadius=self.shadowRadius
+        self.layer.shadowColor=self.shadowColor?.cgColor
     }
     
     let gradientLayer = CAGradientLayer()
